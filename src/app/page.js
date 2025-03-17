@@ -1,11 +1,13 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <html>
       <body>
         <header>
-
+          <div>
+            <h1>Presented by Artificial Intelligence Club at PCC</h1>
+          </div>
         </header>
 
         <main>
@@ -13,9 +15,8 @@ export default function Home() {
             <div>
               <h1>AI Horizons Convention</h1>
               <h2>April 30th, 2025: 11 AM to 6 PM</h2>
-              <h3>Creveling Lounge (CC 201), Pasadena City College</h3>
+              <h2>Creveling Lounge (CC 201), Pasadena City College</h2>
             </div>
-            <h4>Presented by Artificial Intelligence Club at PCC</h4>
           </section>
 
           <section id='about'>
@@ -64,8 +65,8 @@ export default function Home() {
                     <p></p>
                 </div>
                 <div>
-                  <h1>Dr. Thomas Hou</h1>
-                    <h2>Charles Lee Powell Professor of Applied Computational Mathematics at Caltech</h2>
+                  <h1>George Hou</h1>
+                    <h2>Co-Founder at Stealth Startup</h2>
                     <p></p>
                 </div>
             </div>
@@ -98,7 +99,7 @@ export default function Home() {
 
           </section>
 
-          <section id='sections&collabs'>
+          <section id='collabs'>
             <div>
               <h1>Sponsored By:</h1>
               {/*Images, not text*/}
@@ -110,8 +111,8 @@ export default function Home() {
           </section>
 
           <section id='organizers'>
+            <h1>AI Club Organizers</h1>
             <section id='aiclub'>
-              <h1>AI Club Organizers</h1>
               <div>
                 <h1>Evan Chou</h1>
                   <h2>President</h2>
@@ -153,8 +154,8 @@ export default function Home() {
                   <h2>Project Manager</h2>
               </div>
             </section>
+            <h1>Faculty Advisors</h1>
             <section id='faculty'>
-              <h1>Faculty Advisors</h1>
               <div>
                 <h1>Dr. Jamal Ashraf</h1>
                   <h2>AI Club Advisor</h2>
