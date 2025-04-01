@@ -337,6 +337,7 @@ export default function Home() {
                   <h2>To Be Announced</h2>
                 </div>
                 <div className="company">
+                  <img src="./images/piclub.jpg"/>
                   <h1>Pi Club</h1>
                   <h2>Interactive Project Showcase</h2>
                 </div>
