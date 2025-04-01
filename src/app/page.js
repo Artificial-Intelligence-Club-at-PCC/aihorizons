@@ -243,17 +243,17 @@ export default function Home() {
               </div>
               <div className='companies'>
                 <div className='company'>
-                  <img src="./images/jplletters.png"/>
+                  <img src="/images/jplletters.png"/>
                   <h1>NASA Jet Propulsion Laboratory</h1>
                   <h2>JPL STEM Engagement Office</h2>
                 </div>
                 <div className='company'>
-                  <img src="./images/snap.png"/>
+                  <img src="/images/snap.png"/>
                   <h1>Snap Inc.</h1>
                   <h2>Snap Academies Program</h2>
                 </div>
                 <div className='company'>
-                  <img src="./images/caltech_letters.png"/>
+                  <img src="/images/caltech_letters.png"/>
                   <h1>California Institute of Technology</h1>
                   <h2>Caltech Connections Program</h2>
                 </div>

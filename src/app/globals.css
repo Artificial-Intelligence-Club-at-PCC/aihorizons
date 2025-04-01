@@ -39,13 +39,14 @@ header {
   font-size: 20px;
   color: whitesmoke;
   font-family: 'Poppins', cursive;
+  text-align: center;
 }
 
 .header {
   font-size: 55px;
   font-family: 'Lilita One', cursive;
   border-bottom: 7px double black;
-
+  text-align: center;
 }
 
 /*------------------------------- MAIN SECTION --------------------------------------*/
