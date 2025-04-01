@@ -41,6 +41,11 @@ header {
   font-family: 'Poppins', cursive;
 }
 
+.header {
+  font-size: 55px;
+  font-family: 'Lilita One', cursive;
+}
+
 /*------------------------------- MAIN SECTION --------------------------------------*/
 
 #main {
@@ -77,10 +82,41 @@ header {
   color: black;
 }
 
+@media (max-width: 768px) {
+  #main h1 {
+    font-size: 60px;
+  }
+  #main h2 {
+    font-size: 30px;
+  }
+}
+
 /*------------------------------- ABOUT --------------------------------------*/
 
 #about {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
 
+#about h1{
+  font-size: 55px;
+  font-family: 'Lilita One', cursive;
+}
+
+#paragraph {
+  font-family: 'Poppins', cursive;
+  width: 750px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#about ul {
+  list-style: disc;
+  padding-left: 20px;
 }
 
 /*------------------------------- ITINERARY --------------------------------------*/
@@ -90,10 +126,72 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, rgb(64, 64, 146), rgb(209, 164, 202), rgb(204, 101, 101));
-  color: whitesmoke;
   padding: 20px;
-  height: 100vh;
+}
+
+#schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 75px;
+  flex-wrap: wrap;
+}
+
+.event p {
+  font-family: 'Poppins', cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.title {
+  width: 600px;
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.panelists {
+  width: 600px;
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.panelists h1 {
+  font-size: 32.5px;
+  font-family: 'Lilita One', cursive;
+}
+
+.panelists h2 {
+  font-size: 25px;
+  font-family: 'Poppins', cursive;
+  font-weight: bold;
+}
+
+.panelists p {
+  font-family: 'Poppins', cursive;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.panelist {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title h1 {
+  font-size: 35px;
+  font-family: 'Lilita One', cursive;
 }
 
 /*------------------------------- COLLABS --------------------------------------*/
@@ -103,33 +201,62 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, rgb(26, 0, 44) , rgb(71, 0, 60), rgb(1, 1, 49));
-  color: whitesmoke;
-  padding: 20px;
-  height: 100vh;
+  padding: 30px;
+  gap: 50px;
+  text-align: center;
+}
+
+.indiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+.company h1 {
+  font-size: 30px;
+  font-family: 'Poppins', cursive;
+  font-weight: bold;
+}
+
+.company h2 {
+  font-size: 20px;
+  font-family: 'Poppins', cursive;
 }
 
 /*------------------------------- ORGANIZERS --------------------------------------*/
-
-#organizers h1{
-  font-size: 55px;
-  font-family: 'Lilita One', cursive;
-}
 
 #organizers{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
-  color: black;
   padding: 30px;
-  text-align: center;
 }
 
-#organizers section {
+#aiclub, #faculty {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   gap: 30px;
   padding-bottom: 30px;
@@ -141,8 +268,8 @@ header {
   font-size: 35px;
 }
 
-#organizers div {
-  width: 350px;
+#aiclub div, #faculty div {
+  width: 400px;
   height: 110px;
   display: flex;
   flex-direction: column;
@@ -159,6 +286,42 @@ header {
 #faculty div {
   width: 500px;
 }
+
+.company img {
+  height: 100px;
+}
+
+/*------------------------------- INSTA --------------------------------------*/
+
+#insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.instagram-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+.insta-posts {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-media {
+  width: 50vw;
+}
+
 
 /*------------------------------- FOOTER --------------------------------------*/
 
