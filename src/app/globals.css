@@ -114,11 +114,6 @@ header {
   gap: 30px;
 }
 
-#about h1{
-  font-size: 55px;
-  font-family: 'Lilita One', cursive;
-}
-
 #paragraph {
   font-family: 'Poppins', cursive;
   width: 750px;
@@ -312,7 +307,7 @@ header {
 
 @media (max-width: 768px) {
   .company {
-    width: 95vw;
+    width: 90vw;
   }
   .company h1 {
     font-size: 25px;
@@ -321,10 +316,10 @@ header {
     font-size: 15px;
   }
   .indiv {
-    width: 95vw;
+    width: 90vw;
   }
   #industry img {
-    height: 15vh;
+    height: 8vh;
   }
 }
 
@@ -447,4 +442,10 @@ footer {
   height: 10vh;
   color: whitesmoke;
   font-family: 'Poppins', cursive;
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 10px;
+  }
 }
