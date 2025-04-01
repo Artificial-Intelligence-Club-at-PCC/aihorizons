@@ -99,7 +99,7 @@ header {
   }
 
   .header {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -231,7 +231,7 @@ header {
     font-size: 15px;
   }
   .panelists {
-    width: 97vw;
+    width: 90vw;
   }
   .panelists h1 {
     font-size: 25px;
@@ -244,6 +244,9 @@ header {
   }
   .title {
     width: 97vw;
+  }
+  .panelist {
+    padding: 20px;
   }
 }
 
@@ -412,6 +415,13 @@ header {
   font-size: 20px;
   text-align: center;
   width: 1000px;
+}
+
+@media (max-width: 768px) {
+  #insta-text {
+    width: 90vw;
+    font-size: 15px;
+  }
 }
 
 
