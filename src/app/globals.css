@@ -320,6 +320,12 @@ header {
   .company h2 {
     font-size: 15px;
   }
+  .indiv {
+    width: 95vw;
+  }
+  #industry {
+    height: 15vh;
+  }
 }
 
 /*------------------------------- ORGANIZERS --------------------------------------*/
