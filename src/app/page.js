@@ -243,37 +243,37 @@ export default function Home() {
               </div>
               <div className='companies'>
                 <div className='company'>
-                  <img src='/images/jplletters.png'/>
+                  <img src="./images/jplletters.png"/>
                   <h1>NASA Jet Propulsion Laboratory</h1>
                   <h2>JPL STEM Engagement Office</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/snap.png'/>
+                  <img src="./images/snap.png"/>
                   <h1>Snap Inc.</h1>
                   <h2>Snap Academies Program</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/caltech_letters.png'/>
+                  <img src="./images/caltech_letters.png"/>
                   <h1>California Institute of Technology</h1>
                   <h2>Caltech Connections Program</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/ucla.png'/>
+                  <img src="./images/ucla.png"/>
                   <h1>University of California: Los Angeles</h1>
                   <h2>Organization for Cultural Diversity in Science</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/aila.png'/>
+                  <img src="./images/aila.png"/>
                   <h1>AI LA Community</h1>
                   <h2>IDEAS Program</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/freeman.png'/>
+                  <img src="./images/freeman.png"/>
                   <h1>PCC Freeman Career Center</h1>
                   <h2>STEM Career Development</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/mesa.png'/>
+                  <img src="./images/mesa.png"/>
                   <h1>PCC MESA Program</h1>
                   <h2>STEM Academic Development</h2>
                 </div>
@@ -285,17 +285,17 @@ export default function Home() {
               </div>
               <div className='companies'>
                 <div className='company'>
-                  <img src='/images/dsc.png'/>
+                  <img src="./images/dsc.png"/>
                   <h1>Data Science Club</h1>
                   <h2>EEG/Neuroscience Research Projects</h2>
                 </div>
                 <div className='company'>
-                  <img src='/images/she.codes.png'/>
+                  <img src="./images/she.codes.png"/>
                   <h1>She.Codes</h1>
                   <h2>insert project name here</h2>
                 </div>
                 <div className="company">
-                  <img src='/images/SCS_Logo.png'/>
+                  <img src="./images/SCS_Logo.png"/>
                   <h1>STEM Competition Society</h1>
                   <h2>insert project name here</h2>
                 </div>
@@ -304,7 +304,7 @@ export default function Home() {
                   <h2>insert stuff here</h2>
                 </div>
                 <div className="company">
-                  <img src='/images/film.png'/>
+                  <img src="./images/film.png"/>
                   <h1>Film Club</h1>
                   <h2>Entertainment Games</h2>
                 </div>

@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath:'/aihorizons',
-    assetPrefix:'/aihorizons/',
+
+    /*basePath:'/aihorizons',
+    assetPrefix:'/aihorizons/',*/
     output:'export',
 };
 
