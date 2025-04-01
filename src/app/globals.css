@@ -249,7 +249,7 @@ header {
     width: 97vw;
   }
   .panelist {
-    padding: 15px;
+    padding: 30px;
   }
 }
 
@@ -379,6 +379,9 @@ header {
   }
   #organizers h2 {
     font-size: 20px;
+  }
+  #organizers {
+    width: 97.5vw;
   }
 }
 
