@@ -92,6 +92,15 @@ header {
   #main h2 {
     font-size: 30px;
   }
+
+  header {
+    height: 5vh;
+    font-size: 10px;
+  }
+
+  .header {
+    font-size: 30px;
+  }
 }
 
 /*------------------------------- ABOUT --------------------------------------*/
@@ -125,6 +134,13 @@ header {
 #about ul {
   list-style: disc;
   padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  #paragraph {
+    width: 90vw;
+    font-size: 15px;
+  }
 }
 
 /*------------------------------- ITINERARY --------------------------------------*/
@@ -208,6 +224,24 @@ header {
 .title h1 {
   font-size: 35px;
   font-family: 'Lilita One', cursive;
+}
+
+@media (max-width: 768px) {
+  .event p {
+    font-size: 15px;
+  }
+  .panelists {
+    width: 97.5vw;
+  }
+  .panelists h1 {
+    font-size: 25px;
+  }
+  .panelists h2 {
+    font-size: 20px;
+  }
+  .panelists p {
+    font-size: 15px;
+  }
 }
 
 /*------------------------------- COLLABS --------------------------------------*/
