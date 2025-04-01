@@ -231,7 +231,7 @@ header {
     font-size: 15px;
   }
   .panelists {
-    width: 97.5vw;
+    width: 97vw;
   }
   .panelists h1 {
     font-size: 25px;
@@ -241,6 +241,9 @@ header {
   }
   .panelists p {
     font-size: 15px;
+  }
+  .title {
+    width: 97vw;
   }
 }
 
@@ -301,6 +304,18 @@ header {
   border: 2px black solid;
 }
 
+@media (max-width: 768px) {
+  .company {
+    width: 95vw;
+  }
+  .company h1 {
+    font-size: 25px;
+  }
+  .company h2 {
+    font-size: 15px;
+  }
+}
+
 /*------------------------------- ORGANIZERS --------------------------------------*/
 
 #organizers{
@@ -347,6 +362,18 @@ header {
 
 .company img {
   height: 100px;
+}
+
+@media (max-width: 768px) {
+  #aiclub div, #faculty div {
+    width: 95vw;
+  }
+  #aiclub h1, #faculty h1 {
+    font-size: 25px;
+  }
+  #organizers h2 {
+    font-size: 20px;
+  }
 }
 
 /*------------------------------- INSTA --------------------------------------*/
