@@ -92,6 +92,7 @@ export default function Home() {
               </div>
 
               <div className='event'>
+                {/*
                 <div className="title">
                   <h1>1 - 2 PM: The Future of AI in Enterprises and Society</h1>
                   <p>
@@ -116,9 +117,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                */}
+                <div className="title">
+                  <h1>1 - 2 PM: PRESENTATION TO BE ANNOUNCED</h1>
+                </div>
+                <div className="panelists">
+                  <div className="panelist">
+                    <h1>SPEAKER TBA</h1>
+                  </div>
+                </div>
               </div>
 
               <div className='event'>
+                {/*
                 <div className="title">
                   <h1>2:00 - 3:00 PM: Creating Disney Magic with AI</h1>
                 </div>
@@ -127,6 +138,15 @@ export default function Home() {
                     <h1>Ella Lucas</h1>
                       <h2>R&D Imagineer (AI Engineering) at Walt Disney Imagineering</h2>
                       <p></p>
+                  </div>
+                </div>
+                */}
+                <div className="title">
+                  <h1>2 - 3 PM: PRESENTATION TO BE ANNOUNCED</h1>
+                </div>
+                <div className="panelists">
+                  <div className="panelist">
+                    <h1>SPEAKER TBA</h1>
                   </div>
                 </div>
               </div>
@@ -141,6 +161,7 @@ export default function Home() {
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
                 </div>
+                {/*
                 <div className="panelists">
                   <div className="panelist">
                     <h1>Kirby Repko</h1>
@@ -162,6 +183,11 @@ export default function Home() {
                       <h2>Professor of Computing and Mathematical Sciences at Caltech</h2>
                       <p></p>
                   </div>
+                </div>*/}
+                <div className="panelists">
+                  <div className="panelist">
+                    <h1>4 PANELISTS TBA</h1>
+                  </div>
                 </div>
               </div>
 
@@ -174,6 +200,7 @@ export default function Home() {
                     Whether you’re a first-year student or a graduating senior, this panel discussion is designed to help you take your career to the next level!
                   </p>
                 </div>
+                {/*
                 <div className="panelists">
                   <div className="panelist">
                     <h1>Xianmei Li</h1>
@@ -191,6 +218,11 @@ export default function Home() {
                   <div className="panelist">
                     <h1>Chandler Desforges</h1>
                       <h2>Computer Science Student at Pasadena City College</h2>
+                  </div>
+                </div>*/}
+                <div className="panelists">
+                  <div className="panelist">
+                    <h1>4 PANELISTS TBA</h1>
                   </div>
                 </div>
               </div>
@@ -242,6 +274,7 @@ export default function Home() {
                 <h1>Industry Partners and Collaborations</h1>
               </div>
               <div className='companies'>
+                {/*
                 <div className='company'>
                   <img src="./images/jplletters.png"/>
                   <h1>NASA Jet Propulsion Laboratory</h1>
@@ -267,6 +300,7 @@ export default function Home() {
                   <h1>AI LA Community</h1>
                   <h2>IDEAS Program</h2>
                 </div>
+                */}
                 <div className='company'>
                   <img src="./images/freeman.png"/>
                   <h1>PCC Freeman Career Center</h1>
@@ -276,6 +310,9 @@ export default function Home() {
                   <img src="./images/mesa.png"/>
                   <h1>PCC MESA Program</h1>
                   <h2>STEM Academic Development</h2>
+                </div>
+                <div className='company'>
+                  <h1>More Industry Partners To Be Announced!</h1>
                 </div>
               </div>
             </div>
@@ -292,16 +329,16 @@ export default function Home() {
                 <div className='company'>
                   <img src="./images/she.codes.png"/>
                   <h1>She.Codes</h1>
-                  <h2>insert project name here</h2>
+                  <h2>To Be Announced</h2>
                 </div>
                 <div className="company">
                   <img src="./images/SCS_Logo.png"/>
                   <h1>STEM Competition Society</h1>
-                  <h2>insert project name here</h2>
+                  <h2>To Be Announced</h2>
                 </div>
                 <div className="company">
                   <h1>Pi Club</h1>
-                  <h2>insert stuff here</h2>
+                  <h2>Interactive Project Showcase</h2>
                 </div>
                 <div className="company">
                   <img src="./images/film.png"/>
