@@ -44,6 +44,8 @@ header {
 .header {
   font-size: 55px;
   font-family: 'Lilita One', cursive;
+  border-bottom: 7px double black;
+
 }
 
 /*------------------------------- MAIN SECTION --------------------------------------*/
@@ -112,6 +114,11 @@ header {
   width: 750px;
   text-align: justify;
   font-size: 20px;
+  color: whitesmoke;
+  background-color: #2e4361;
+  padding: 40px;
+  border-radius: 20px;
+  /*border:6px solid rgb(47, 31, 17);*/
 }
 
 #about ul {
@@ -132,7 +139,6 @@ header {
 #schedule {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   padding: 20px;
 }
 
@@ -144,6 +150,11 @@ header {
   padding: 20px;
   gap: 75px;
   flex-wrap: wrap;
+  border-top: 3.5px dashed black;
+}
+
+#first {
+  border-top: none;
 }
 
 .event p {
@@ -187,6 +198,10 @@ header {
   display:flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #2e4361;
+  padding: 40px;
+  border-radius: 20px;
+  color: whitesmoke;
 }
 
 .title h1 {
@@ -227,8 +242,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   width: 500px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -241,6 +257,13 @@ header {
 .company h2 {
   font-size: 20px;
   font-family: 'Poppins', cursive;
+}
+
+#students img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  border: 2px black solid;
 }
 
 /*------------------------------- ORGANIZERS --------------------------------------*/
@@ -320,6 +343,13 @@ header {
 
 .instagram-media {
   width: 50vw;
+}
+
+#insta-text {
+  font-family: 'Poppins', cursive;
+  font-size: 20px;
+  text-align: center;
+  width: 1000px;
 }
 
 

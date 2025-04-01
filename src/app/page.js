@@ -28,14 +28,15 @@ export default function Home() {
                 AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
                 transformative power of artificial intelligence and technology. Whether you're a tech enthusiast, a creative thinker, or simply curious about 
                 how AI and technology will shape the world, this event is for you. Join us for an inclusive, eye-opening experience 
-                that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br /><br/>
-                At this convention, you’ll: 
+                that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
+                {/*<br/>At this convention, you’ll:*/} 
               </p>
+              {/*
               <ul>
                 <li>Hear from experts in dynamic presentations and panels discussing how AI is revolutionizing jobs across industries—and what it means for your future.</li>  
                 <li>Explore interactive exhibits showcasing cutting-edge projects from campus clubs, highlighting the creativity and innovation of students and organizations in our communities.</li>
                 <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
-              </ul>
+              </ul>*/}
               <p>
                 <br/>This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. Whether you’re an artist, 
                 a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
@@ -50,7 +51,7 @@ export default function Home() {
             </div>
 
             <div id='schedule'>
-              <div className='event'>
+              <div className='event' id='first'>
                 <div className='title'>
                   <h1>11 AM - 1 PM: Career, Research, and Internships Fair</h1>
                   <p>
@@ -122,7 +123,7 @@ export default function Home() {
                   <h1>2:00 - 3:00 PM: Creating Disney Magic with AI</h1>
                 </div>
                 <div className="panelists">
-                  <div>
+                  <div className="panelist">
                     <h1>Ella Lucas</h1>
                       <h2>R&D Imagineer (AI Engineering) at Walt Disney Imagineering</h2>
                       <p></p>
@@ -141,23 +142,23 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="panelists">
-                  <div>
+                  <div className="panelist">
                     <h1>Kirby Repko</h1>
                       <h2>Cloud Solution Architect at Microsoft</h2>
                       <p></p>
                   </div>
-                  <div>
+                  <div className="panelist">
                     <h1>Rob Royce</h1>
                       <h2>Data Scientist and AI Advisor at NASA Jet Propulsion Laboratory</h2>
                       <p></p>
                   </div>
-                  <div>
+                  <div className="panelist">
                     <h1>Shreyansh Daftry</h1>
                       <h2>Data Scientist at NASA Jet Propulsion Laboratory</h2>
                       <p></p>
                   </div>
-                  <div>
-                    <h1>Dr. Yisong Yue</h1>
+                  <div className="panelist">
+                    <h1>Yisong Yue</h1>
                       <h2>Professor of Computing and Mathematical Sciences at Caltech</h2>
                       <p></p>
                   </div>
@@ -174,20 +175,20 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="panelists">
-                  <div>
+                  <div className="panelist">
                     <h1>Xianmei Li</h1>
                       <h2>Robotics Systems Engineer at NASA Jet Propulsion Laboratory</h2>
                       <p></p>
                   </div>
-                  <div>
+                  <div className="panelist">
                     <h1>Tammy Sujaritchai</h1>
                       <h2>Computer Science + Linguistics Student at UCLA</h2>
                   </div>
-                  <div>
-                    <h1>Smth</h1>
-                      <h2>Student at Caltech</h2>
+                  <div className="panelist">
+                    <h1>Shiori Nakaya</h1>
+                      <h2>Geophysics Student at UC Riverside</h2>
                   </div>
-                  <div>
+                  <div className="panelist">
                     <h1>Chandler Desforges</h1>
                       <h2>Computer Science Student at Pasadena City College</h2>
                   </div>
@@ -238,7 +239,7 @@ export default function Home() {
           <section id='collabs'>
             <div className="indiv" id='industry'>
               <div className='header'>
-                <h1>Sponsors and Collaborations</h1>
+                <h1>Industry Partners and Collaborations</h1>
               </div>
               <div className='companies'>
                 <div className='company'>
@@ -247,6 +248,7 @@ export default function Home() {
                   <h2>JPL STEM Engagement Office</h2>
                 </div>
                 <div className='company'>
+                  <img src='/images/snap.png'/>
                   <h1>Snap Inc.</h1>
                   <h2>Snap Academies Program</h2>
                 </div>
@@ -261,6 +263,7 @@ export default function Home() {
                   <h2>Organization for Cultural Diversity in Science</h2>
                 </div>
                 <div className='company'>
+                  <img src='/images/aila.png'/>
                   <h1>AI LA Community</h1>
                   <h2>IDEAS Program</h2>
                 </div>
@@ -282,6 +285,7 @@ export default function Home() {
               </div>
               <div className='companies'>
                 <div className='company'>
+                  <img src='/images/dsc.png'/>
                   <h1>Data Science Club</h1>
                   <h2>EEG/Neuroscience Research Projects</h2>
                 </div>
@@ -374,6 +378,12 @@ export default function Home() {
                 <div className="instagram-feed">
                   <div className='header'>
                     <h1>Follow Us on Instagram</h1>
+                  </div>
+                  <div id='insta-text'>
+                    <p>
+                      Stay updated on the latest news and events from the AI Club and the AI Horizons Convention by following us on Instagram! 
+                      We post regular updates, photos, and highlights from our events, so be sure to check it out and join the conversation!
+                    </p>
                   </div>
                   <div id="insta-posts" >
                     {/* Instagram embed script */}
