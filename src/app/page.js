@@ -377,7 +377,7 @@ export default function Home() {
           <section id='insta'>
                 <div className="instagram-feed">
                   <div className='header'>
-                    <h1>Follow Us on Instagram</h1>
+                    <h1>Social Media</h1>
                   </div>
                   <div id='insta-text'>
                     <p>

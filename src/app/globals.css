@@ -227,6 +227,9 @@ header {
 }
 
 @media (max-width: 768px) {
+  .event {
+    width: 90vw;
+  }
   .event p {
     font-size: 15px;
   }
