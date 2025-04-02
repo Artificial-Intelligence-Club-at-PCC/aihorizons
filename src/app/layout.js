@@ -12,6 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  /*
   title: "AI Horizons - AI Club at PCC",
   description: "Official website for AI Horizons, hosted by Artificial Intelligence Club at PCC",
   openGraph: {
@@ -23,7 +24,7 @@ export const metadata = {
       }
     ],
     type: "website",
-  },
+  },*/
 };
 
 export default function RootLayout({ children }) {
