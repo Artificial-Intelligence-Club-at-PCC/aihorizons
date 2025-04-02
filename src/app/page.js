@@ -1,9 +1,15 @@
 import Dropdown from './components/dropdown';
 import FlyerCarousel from './components/carousel';
+import {Head} from "next/document";
 
 export default function Home() {
   return (
     <html>
+      <head>
+        <meta property="og:title" content="AI Horizons Convention" />
+        <meta property="og.description" content="Official website for AI Horizons, hosted by Artificial Intelligence Club at PCC" />
+      </head>
+
       <body>
         <header>
           <div>
