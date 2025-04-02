@@ -292,7 +292,7 @@ header {
 .panelists p {
   font-family: 'Poppins', cursive;
   font-size: 17px;
-  text-align: justify;
+  text-align: left;
 }
 
 .panelist {

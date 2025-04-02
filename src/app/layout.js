@@ -17,15 +17,12 @@ export const metadata = {
   openGraph: {
     title: "AI Horizons - AI Club at PCC",
     description: "Official website for AI Horizons, hosted by Artificial Intelligence Club at PCC",
-    url: "https://artificial-intelligence-club-at-pcc.github.io/aihorizons/",
-    siteName: "AI Horizons",
     images:[
       {
         url:"./images/flyers/aibanner.png",
       }
     ],
-    type: "website",
-  }
+  },
 };
 
 export default function RootLayout({ children }) {
