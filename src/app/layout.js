@@ -22,6 +22,7 @@ export const metadata = {
         url:"./images/flyers/aibanner.png",
       }
     ],
+    type: "website",
   },
 };
 
