@@ -5,10 +5,11 @@ import {Head} from "next/document";
 export default function Home() {
   return (
     <html>
-      <head>
+      <Head>
+        <meta name="description" content="Official website for AI Horizons, hosted by Artificial Intelligence Club at PCC" />
         <meta property="og:title" content="AI Horizons Convention" />
         <meta property="og.description" content="Official website for AI Horizons, hosted by Artificial Intelligence Club at PCC" />
-      </head>
+      </Head>
 
       <body>
         <header>
