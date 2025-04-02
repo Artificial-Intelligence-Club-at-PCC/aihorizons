@@ -1,4 +1,5 @@
-
+import Dropdown from './components/dropdown';
+import FlyerCarousel from './components/carousel';
 
 export default function Home() {
   return (
@@ -12,36 +13,57 @@ export default function Home() {
 
         <main>
           <section id='main'>
-            <div>
-              <h1>AI Horizons Convention</h1>
-              <h2>April 30th 2025, 11 AM to 6 PM</h2>
-              <h2>Creveling Lounge (CC 201), Pasadena City College</h2>
-            </div>
+              <img src="./images/aiclub.png" id='logo'/>
+              <img src="./images/title.png" alt="AI Horizons Convention" id='title'/>
+              <div id='nottitle'>
+                <div id='date'>
+                  <div>
+                    <img src="./images/calendar.png"/>
+                    <h2>April 30th , 2025</h2>
+                  </div>
+                  <div>
+                    <img src="./images/time.png"/>
+                    <h2>11 AM - 6 PM</h2>
+                  </div>
+                </div>
+                <div id='location'>
+                  <img src="./images/map.png"/>
+                  <h2>Creveling Lounge (CC 201), Pasadena City College</h2>
+                </div>
+              </div>
+              <div id='mobsuggest'>
+                <h3>For a better viewer experience, we suggest viewing this webpage on a large screen.</h3>
+              </div>
           </section>
 
           <section id='about'>
             <div className='header'>
               <h1>About the Event</h1>
             </div>
-            <div id='paragraph'>
-              <p>
-                AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
-                transformative power of artificial intelligence and technology. Whether you're a tech enthusiast, a creative thinker, or simply curious about 
-                how AI and technology will shape the world, this event is for you. Join us for an inclusive, eye-opening experience 
-                that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
-                {/*<br/>At this convention, you’ll:*/} 
-              </p>
-              {/*
-              <ul>
-                <li>Hear from experts in dynamic presentations and panels discussing how AI is revolutionizing jobs across industries—and what it means for your future.</li>  
-                <li>Explore interactive exhibits showcasing cutting-edge projects from campus clubs, highlighting the creativity and innovation of students and organizations in our communities.</li>
-                <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
-              </ul>*/}
-              <p>
-                <br/>This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. Whether you’re an artist, 
-                a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
-                shape your career and the world around you. Don’t miss this opportunity to step into the future—where innovation meets inclusivity!
-              </p>
+            <div id='aboutcontent'>
+              <div id='paragraph'>
+                <p>
+                  AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
+                  transformative power of artificial intelligence and technology. Whether you're a tech enthusiast, a creative thinker, or simply curious about 
+                  how AI and technology will shape the world, this event is for you. Join us for an inclusive, eye-opening experience 
+                  that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
+                  {/*<br/>At this convention, you’ll:*/} 
+                </p>
+                {/*
+                <ul>
+                  <li>Hear from experts in dynamic presentations and panels discussing how AI is revolutionizing jobs across industries—and what it means for your future.</li>  
+                  <li>Explore interactive exhibits showcasing cutting-edge projects from campus clubs, highlighting the creativity and innovation of students and organizations in our communities.</li>
+                  <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
+                </ul>*/}
+                <p>
+                  <br/>This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. Whether you’re an artist, 
+                  a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
+                  shape your career and the world around you. Don’t miss this opportunity to step into the future—where innovation meets inclusivity!
+                </p>
+              </div>
+              <div>
+                <FlyerCarousel />
+              </div>
             </div>
           </section>
 
@@ -68,11 +90,13 @@ export default function Home() {
                       <h2>President of AI Club</h2>
                     </div>
                     <div>
-                      <p>
-                        Evan is an Electrical Engineering Major at Pasadena City College passionate about the intersection of AI in hardware and software.
-                        As one of the lead organizers for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
-                        Evan enjoys sharing his experiences in career development to inspire others to pursue their passions.
-                      </p>
+                      {/*<Dropdown title='Evan Chou'>*/}
+                        <p>
+                          Evan is an Electrical Engineering Major at Pasadena City College passionate about the intersection of AI in hardware and software.
+                          As one of the lead organizers for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
+                          Evan enjoys sharing his experiences in career development to inspire others to pursue their passions.
+                        </p>
+                      {/*</Dropdown>*/}
                     </div>
                   </div>
                   <div className="panelist">
@@ -238,27 +262,23 @@ export default function Home() {
                 <div className="panelists">
                   <div className="panelist">
                     <div>
-                      <h1>Akki Akshit</h1>
-                      <h2>Secretary of AI Club</h2>
+                      <h1>Evan Chou</h1>
+                      <h2>President of AI Club</h2>
                     </div>
                     <div>
                       <p>
-                        Akki is a Computer Science Major at Pasadena City College with a passion for AI and its applications in various fields.
-                        As the Secretary of AI Club, Akki is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
-                        He is excited to share his knowledge and experiences with others and inspire them to pursue their interests in technology.
+                        
                       </p>
                     </div>
                   </div>
                   <div className="panelist">
                     <div>
-                      <h1>Jordan Marcelo</h1>
-                      <h2>Treasurer of AI Club</h2>
+                      <h1>Shin Aung</h1>
+                      <h2>Vice President of AI Club</h2>
                     </div>
                     <div>
                       <p>
-                        Jordan is a Computer Science Major at Pasadena City College with a passion for AI and its applications in various fields.
-                        As the Treasurer of AI Club, Jordan is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
-                        He is excited to share his knowledge and experiences with others and inspire them to pursue their interests in technology.
+                        
                       </p>
                     </div>
                   </div>
