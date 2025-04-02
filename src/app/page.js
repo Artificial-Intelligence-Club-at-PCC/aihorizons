@@ -1,8 +1,44 @@
+"use client";
 import Dropdown from './components/dropdown';
 import FlyerCarousel from './components/carousel';
-import {Head} from "next/document";
+
+import {useEffect, useState} from "react";
+
+function startCountdown() {
+  const targetDate = new Date();
+  targetDate.setMonth(3); // April (0-based index)
+  targetDate.setDate(30);
+  targetDate.setHours(11, 0, 0, 0); // 11 AM
+
+  return function calculateTimeLeft() {
+      const now = new Date();
+      const timeDifference = targetDate - now;
+
+      if (timeDifference <= 0) {
+          return "COUNTDOWN FINISHED!";
+      }
+
+      const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+      return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  };
+}
 
 export default function Home() {
+  const [timeLeft, setTimeLeft] = useState(startCountdown()());
+
+  useEffect(() => {
+      const interval = setInterval(() => {
+          setTimeLeft(startCountdown()());
+      }, 1000);
+
+      return () => clearInterval(interval);
+  }
+  , []);
+
   return (
     <html>
 
@@ -33,6 +69,9 @@ export default function Home() {
                   <h2>Creveling Lounge (CC 201), Pasadena City College</h2>
                 </div>
               </div>
+              <div id='countdown'>
+                <p>COUNTDOWN: <br/>{timeLeft}</p>
+              </div>
               <div id='mobsuggest'>
                 <h3>For a better viewer experience, we suggest viewing this webpage on a large screen.</h3>
               </div>
@@ -46,9 +85,10 @@ export default function Home() {
               <div id='paragraph'>
                 <p>
                   AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
-                  transformative power of artificial intelligence and technology. Whether you're a tech enthusiast, a creative thinker, or simply curious about 
-                  how AI and technology will shape the world, this event is for you. Join us for an inclusive, eye-opening experience 
-                  that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
+                  transformative power of artificial intelligence and technology. Whether you’re an artist, 
+                  a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
+                  shape your career and the world around you. This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. 
+                  Join us for an inclusive, eye-opening experience that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
                   {/*<br/>At this convention, you’ll:*/} 
                 </p>
                 {/*
@@ -58,9 +98,7 @@ export default function Home() {
                   <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
                 </ul>*/}
                 <p>
-                  <br/>This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. Whether you’re an artist, 
-                  a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
-                  shape your career and the world around you. Don’t miss this opportunity to step into the future—where innovation meets inclusivity!
+                  <br/>Don’t miss this opportunity to step into the future — where innovation meets inclusivity!
                 </p>
               </div>
               <div>

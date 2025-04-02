@@ -22,7 +22,7 @@ export default function FlyerCarousel() {
 
   // Auto-play functionality (every 3 seconds)
   useEffect(() => {
-    const interval = setInterval(nextFlyer, 6000);
+    const interval = setInterval(nextFlyer, 8000);
     return () => clearInterval(interval);
   }, []);
 
