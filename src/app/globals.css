@@ -198,10 +198,10 @@ header {
     display:block;
   }
   #countdown {
-    width: 60vw;
+    width: 65vw;
     position: static;
     bottom: auto;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 40px;
     border-radius:10px;
   }
