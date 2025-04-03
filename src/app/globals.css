@@ -141,7 +141,7 @@ header {
 
 #countdown {
   font-size: 45px;
-  color:#a40d36;
+  color:whitesmoke;
   font-family: 'Poppins', cursive;
   font-weight: bold;
   padding: 10px;
@@ -238,7 +238,7 @@ header {
   color: whitesmoke;
   background-color: #2e4361;
   padding: 40px;
-  border-radius: 20px;
+  border-radius: 10px;
   /*border:6px solid rgb(47, 31, 17);*/
 }
 
@@ -247,10 +247,38 @@ header {
   padding-left: 20px;
 }
 
+#abouttext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#abouttext img{
+  width:450px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+
+#abouttext h3{
+  font-family:'Poppins', cursive;
+  font-size:20px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   #paragraph {
     width: 90vw;
     font-size: 15px;
+  }
+
+  #abouttext h3{
+    font-size: 12.5px;
+  }
+
+  #abouttext img {
+    width:80vw;
   }
 }
 

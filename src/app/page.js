@@ -82,24 +82,31 @@ export default function Home() {
               <h1>About the Event</h1>
             </div>
             <div id='aboutcontent'>
-              <div id='paragraph'>
-                <p>
-                  AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
-                  transformative power of artificial intelligence and technology. Whether you’re an artist, 
-                  a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
-                  shape your career and the world around you. This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. 
-                  Join us for an inclusive, eye-opening experience that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
-                  {/*<br/>At this convention, you’ll:*/} 
-                </p>
-                {/*
-                <ul>
-                  <li>Hear from experts in dynamic presentations and panels discussing how AI is revolutionizing jobs across industries—and what it means for your future.</li>  
-                  <li>Explore interactive exhibits showcasing cutting-edge projects from campus clubs, highlighting the creativity and innovation of students and organizations in our communities.</li>
-                  <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
-                </ul>*/}
-                <p>
-                  <br/>Don’t miss this opportunity to step into the future — where innovation meets inclusivity!
-                </p>
+              <div id='abouttext'>
+                <div>
+                  <img src="./images/grouppic.jpg"/>
+                  <h3>Artificial Intelligence Club at PCC</h3>
+                </div>
+                <div id='paragraph'>
+                  <p>
+                    AI Horizons Convention is a groundbreaking convention designed for students of all majors and backgrounds to explore the 
+                    transformative power of artificial intelligence and technology. Whether you’re an artist, 
+                    a business major, a future educator, or still figuring it out, "AI Horizons" will show you how to harness the power of AI and technology to 
+                    shape your career and the world around you. This is your chance to see how AI and technology isn’t just for engineers and scientists—it’s for everyone. 
+                    Join us for an inclusive, eye-opening experience that will prepare you for the future of work and inspire you to see AI and technology as a tool for innovation in every field. <br />
+                    {/*<br/>At this convention, you’ll:*/} 
+                  </p>
+                  {/*
+                  <ul>
+                    <li>Hear from experts in dynamic presentations and panels discussing how AI is revolutionizing jobs across industries—and what it means for your future.</li>  
+                    <li>Explore interactive exhibits showcasing cutting-edge projects from campus clubs, highlighting the creativity and innovation of students and organizations in our communities.</li>
+                    <li>Network with recruitors and industry experts to learn how to stay competitive in today's job market.</li>  
+                  </ul>*/}
+                  {/*
+                  <p>
+                    <br/>Don’t miss this opportunity to step into the future — where innovation meets inclusivity!
+                  </p>*/}
+                </div>
               </div>
               <div>
                 <FlyerCarousel />
