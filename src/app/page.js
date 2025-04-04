@@ -132,9 +132,12 @@ export default function Home() {
                 </div>
                 <div className='panelists'>
                   <div className="panelist">
-                    <div>
-                      <h1>Evan Chou</h1>
-                      <h2>President of AI Club</h2>
+                    <div className='paneltitle'>
+                      <img src="./images/panelists/evan.jpg" alt="Evan Chou" />
+                      <div>
+                        <h1>Evan Chou</h1>
+                        <h2>President of AI Club</h2>
+                      </div>
                     </div>
                     <div>
                       {/*<Dropdown title='Evan Chou'>*/}
@@ -147,9 +150,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="panelist">
-                    <div>
-                      <h1>Shin Aung</h1>
-                      <h2>Vice President of AI Club</h2>
+                    <div className='paneltitle'>
+                      <img src="./images/panelists/shin.png" alt="Shin Aung" />
+                      <div>
+                        <h1>Shin Aung</h1>
+                        <h2>Vice President of AI Club</h2>
+                      </div>
                     </div>
                     <div>
                       <p>
@@ -279,8 +285,8 @@ export default function Home() {
                       <p></p>
                   </div>
                   <div className="panelist">
-                    <h1>Tammy Sujaritchai</h1>
-                      <h2>Computer Science + Linguistics Student at UCLA</h2>
+                    <h1>Rita Sargsyan</h1>
+                      <h2>AI LA IDEAS Program Director & VC/Startups Ambassador</h2>
                   </div>
                   <div className="panelist">
                     <h1>Shiori Nakaya</h1>
@@ -364,7 +370,7 @@ export default function Home() {
                 </div>
                 <div className='company'>
                   <img src="./images/aila.png"/>
-                  <h1>AI LA Community</h1>
+                  <h1>Artificial Intelligence Los Angeles</h1>
                   <h2>IDEAS Program</h2>
                 </div>
                 */}
@@ -462,20 +468,10 @@ export default function Home() {
                 <h1>Timothy De Lange</h1>
                   <h2>Project Manager</h2>
               </div>
-            </div>
-            <div className='header'>
-              <h1>Faculty Advisors</h1>
-            </div>
-            <div id='faculty'>
               <div>
                 <h1>Dr. Jamal Ashraf</h1>
-                  <h2>AI Club Advisor</h2>
+                  <h2>Faculty Advisor</h2>
               </div>
-              {/*
-              <div>
-                <h1>Dr. Yu-Chang Chang-Hou</h1>
-                  <h2>AI Horizons Convention Advisor</h2>
-              </div>*/}
             </div>
           </section>
 
@@ -486,9 +482,29 @@ export default function Home() {
                   </div>
                   <div id='insta-text'>
                     <p>
-                      Stay updated on the latest news and events from the AI Club and the AI Horizons Convention by following us on Instagram! 
+                      Stay updated on the latest news and events from the AI Club and the AI Horizons Convention by following us on social media! 
                       We post regular updates, photos, and highlights from our events, so be sure to check it out and join the conversation!
                     </p>
+                  </div>
+                  <div id='othersm'>
+                    <div id='discord'>
+                      <a href="https://discord.gg/WDnDmpaAfV" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/discord.jpg" alt="Discord" />
+                        <h2>AI & ML Club Discord Server</h2>
+                      </a>
+                    </div>
+                    <div id='linkedin'>
+                      <a href="https://www.linkedin.com/company/pccaimlclub/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/linkedin.jpg" alt="LinkedIn" />
+                        <h2>Artificial Intelligence Club at Pasadena City College</h2>
+                      </a>
+                    </div>
+                    <div id='lancer'>
+                      <a href="https://lancerlife.pasadena.edu/organization/aimlclub" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/lancer.png" alt="Lancer Life" />
+                        <h2>Artificial Intelligence Club LancerLife</h2>
+                      </a>
+                    </div>
                   </div>
                   <div id="insta-posts" >
                     {/* Instagram embed script */}
