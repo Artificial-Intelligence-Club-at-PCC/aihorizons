@@ -239,6 +239,11 @@ header {
   padding: 40px;
   border-radius: 10px;
   /*border:6px solid rgb(47, 31, 17);*/
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #about ul {
@@ -266,6 +271,17 @@ header {
   text-align: center;
 }
 
+#paragraph button{
+  color: black;
+  text-align:center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  cursor:pointer;
+  width: 400px;
+  font-weight:bold;
+}
+
 @media (max-width: 768px) {
   #paragraph {
     width: 90vw;
@@ -278,6 +294,10 @@ header {
 
   #abouttext img {
     width:80vw;
+  }
+  #paragraph button {
+    width: 80vw;
+    font-size: 15px;
   }
 }
 

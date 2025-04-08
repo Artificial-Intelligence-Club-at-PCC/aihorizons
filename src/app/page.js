@@ -106,6 +106,9 @@ export default function Home() {
                   <p>
                     <br/>Don’t miss this opportunity to step into the future — where innovation meets inclusivity!
                   </p>*/}
+                  <a href="https://forms.gle/vL9u38x95DxSqrGo8" target="_blank" rel="noopener noreferrer">
+                    <button>Press Here to Register Now!</button>
+                  </a>
                 </div>
               </div>
               <div>
@@ -125,9 +128,8 @@ export default function Home() {
                   <h1>11 AM - 1 PM: Career, Research, and Internships Fair</h1>
                   <p>
                     Join us for some celebratory opening remarks from the organizers to kick-start all event festivities!
-                    This will be followed by a showcase of interactive exhibits from campus clubs and networking opportunities with recruiters from
-                    many tech and defense companies (see Sponsors and Collaborations!).
-                    Lunch will be provided for all attendees, so come hungry and ready to explore!
+                    This will be followed by a showcase of interactive exhibits from campus clubs and networking opportunities with recruiters and experts from
+                    many organizations in industry or universities. Come ready to explore!
                   </p>
                 </div>
                 <div className='panelists'>
@@ -143,7 +145,7 @@ export default function Home() {
                       {/*<Dropdown title='Evan Chou'>*/}
                         <p>
                           Evan is an Electrical Engineering Major at Pasadena City College passionate about the intersection of AI in hardware and software.
-                          As one of the lead organizers for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
+                          As the lead organizers for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
                           Evan enjoys sharing his experiences in career development to inspire others to pursue their passions.
                         </p>
                       {/*</Dropdown>*/}
@@ -169,38 +171,29 @@ export default function Home() {
               </div>
 
               <div className='event'>
-                {/*
                 <div className="title">
-                  <h1>1 - 2 PM: The Future of AI in Enterprises and Society</h1>
+                  <h1>1 - 2 PM: Autonomous Agents</h1>
                   <p>
-                    In our first presentation, David Chou will be discussing the real-world applications of AI in business operations
-                    and how it is transforming the way we work. He will also explore the ethical implications of AI in society and how we can ensure that AI is used responsibly and ethically.
-                    This presentation will provide valuable insights into the future of AI and its impact on our lives.
+                    In our first presentation, David Chou will be explaining what AI agents are. This presentation will help you gain
+                    insights into how AI agents are used, and discover how to build AI agents. Finally, David Chou will share his thoughts
+                    on the future of AI and what we can look forward to in the coming years!
                   </p>
                 </div>
                 <div className="panelists">
                   <div className='panelist'>
-                    <div>
-                      <h1>David Chou</h1>
-                      <h2>Director of Cloud Developer and Platform Strategy at Microsoft</h2>
+                    <div className='paneltitle'>
+                        <img src="./images/panelists/david.jpeg" alt="David Chou" />
+                        <div>
+                          <h1>David Chou</h1>
+                          <h2>Director of Cloud Developer and Platform Strategy at Microsoft</h2>
+                        </div>
                     </div>
                     <div>
                       <p>
-                        As a seasoned Software and Cloud Architect, David Chou worked on the development of many Microsoft applications
-                        and services, including Microsoft Copilot and Azure Power Platforms. David was part of the development team
-                        for Microsoft Azure and has been a key player in the development of Microsoft’s cloud strategy. Today, he works
-                        with many Microsoft teams and leads the development of cloud-based applications and AI services.
+                        David Chou is currently a cloud architect and strategy lead at Microsoft, where he is focused on enterprise developer strategy
+                        building on AI app platform and toolchain. He is experienced in software engineering and application development delivering distributed systems.
                       </p>
                     </div>
-                  </div>
-                </div>
-                */}
-                <div className="title">
-                  <h1>1 - 2 PM: PRESENTATION TO BE ANNOUNCED</h1>
-                </div>
-                <div className="panelists">
-                  <div className="panelist">
-                    <h1>SPEAKER TBA</h1>
                   </div>
                 </div>
               </div>
@@ -234,7 +227,7 @@ export default function Home() {
                   <p>
                     In this panel discussion, you’ll hear from experts in the field of AI and technology about how AI is being used in different parts of the world.
                     This is a unique opportunity to learn about the global impact of AI and how it is shaping our world, so
-                    whether you’re interested in the ethical implications of AI, the role of AI in economic development, or the future of work in a globalized world,
+                    whether you’re interested in the ethical implications of AI or the future of work in a globalized world,
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
                 </div>
@@ -357,23 +350,22 @@ export default function Home() {
                   <img src="./images/snap.png"/>
                   <h1>Snap Inc.</h1>
                   <h2>Snap Academies Program</h2>
-                </div>
+                </div>*/}
                 <div className='company'>
                   <img src="./images/caltech_letters.png"/>
                   <h1>California Institute of Technology</h1>
                   <h2>Caltech Connections Program</h2>
-                </div>
+                </div>{/*}
                 <div className='company'>
                   <img src="./images/ucla.png"/>
                   <h1>University of California: Los Angeles</h1>
                   <h2>Organization for Cultural Diversity in Science</h2>
-                </div>
+                </div>*/}
                 <div className='company'>
                   <img src="./images/aila.png"/>
                   <h1>Artificial Intelligence Los Angeles</h1>
                   <h2>IDEAS Program</h2>
                 </div>
-                */}
                 <div className='company'>
                   <img src="./images/freeman.png"/>
                   <h1>PCC Freeman Career Center</h1>
