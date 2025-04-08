@@ -367,6 +367,11 @@ export default function Home() {
                   <h2>IDEAS Program</h2>
                 </div>
                 <div className='company'>
+                  <img src="./images/csula.png"/>
+                  <h1>Cal State University Los Angeles</h1>
+                  <h2>Department of Information Systems</h2>
+                </div>
+                <div className='company'>
                   <img src="./images/freeman.png"/>
                   <h1>PCC Freeman Career Center</h1>
                   <h2>STEM Career Development</h2>
