@@ -145,7 +145,7 @@ export default function Home() {
                       {/*<Dropdown title='Evan Chou'>*/}
                         <p>
                           Evan is an Electrical Engineering Major at Pasadena City College passionate about the intersection of AI in hardware and software.
-                          As the lead organizers for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
+                          As the lead organizer for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
                           Evan enjoys sharing his experiences in career development to inspire others to pursue their passions.
                         </p>
                       {/*</Dropdown>*/}
@@ -263,7 +263,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className="title">
-                  <h1>4:30 - 5:30 PM: Accelerate your Career, Research, and Internships</h1>
+                  <h1>4:30 - 5:30 PM: Accelerate your Career Development Panel</h1>
                   <p>
                     In this panel discussion, you’ll learn how to leverage your skills and experiences to stand out in a competitive job market,
                     and gain insights into the skills and qualities that employers are looking for in candidates.
@@ -340,17 +340,11 @@ export default function Home() {
                 <h1>Industry Partners and Collaborations</h1>
               </div>
               <div className='companies'>
-                {/*
                 <div className='company'>
                   <img src="./images/jplletters.png"/>
                   <h1>NASA Jet Propulsion Laboratory</h1>
                   <h2>JPL STEM Engagement Office</h2>
                 </div>
-                <div className='company'>
-                  <img src="./images/snap.png"/>
-                  <h1>Snap Inc.</h1>
-                  <h2>Snap Academies Program</h2>
-                </div>*/}
                 <div className='company'>
                   <img src="./images/caltech_letters.png"/>
                   <h1>California Institute of Technology</h1>
@@ -380,9 +374,6 @@ export default function Home() {
                   <img src="./images/mesa.png"/>
                   <h1>PCC MESA Program</h1>
                   <h2>STEM Academic Development</h2>
-                </div>
-                <div className='company'>
-                  <h1>More Industry Partners To Be Announced!</h1>
                 </div>
               </div>
             </div>
@@ -468,6 +459,10 @@ export default function Home() {
               <div>
                 <h1>Dr. Jamal Ashraf</h1>
                   <h2>Faculty Advisor</h2>
+              </div>
+              <div>
+                <h1>Dr. Yu-Chung Chang-Hou</h1>
+                  <h2>AI Horizons Advisor</h2>
               </div>
             </div>
           </section>
