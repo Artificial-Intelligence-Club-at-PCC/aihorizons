@@ -4,21 +4,21 @@ import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-export default function Page() {
+export default function Dropdown({children}) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-md mx-auto p-4">
+    <div className="max-w-md mx-auto">
       <Button 
         onClick={() => setIsOpen(prev => !prev)} 
-        className="w-full flex justify-between items-center p-3 bg-blue-500 text-white rounded-lg">
-        {isOpen ? "Hide" : "Show"} Text
+        className="w-full flex justify-between items-center p-3 bg-[whitesmoke] text-black rounded-lg">
+        {isOpen ? "Hide" : "Show"} Guest Speaker Description
         {isOpen ? <ChevronUp /> : <ChevronDown />}
       </Button>
       {isOpen && (
-        <Card className="mt-4">
-          <CardContent className="p-4">
-            {Children}
+        <Card>
+          <CardContent>
+            {children}
           </CardContent>
         </Card>
       )}

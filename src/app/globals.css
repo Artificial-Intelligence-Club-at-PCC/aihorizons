@@ -342,7 +342,19 @@ header {
   width: 600px;
   display:flex;
   flex-direction: column;
+  justify-content: flex-start;
   gap: 30px;
+}
+
+.title ul {
+  padding-left: 30px;
+}
+
+.title li {
+  font-family: 'Poppins', cursive;
+  font-size: 20px;
+  text-align: left;
+  list-style: disc;
 }
 
 .panelists {
@@ -398,6 +410,10 @@ header {
   gap: 20px;
 }
 
+.dropdown {
+  display:none;
+}
+
 @media (max-width: 768px) {
   .event {
     width: 90vw;
@@ -422,6 +438,12 @@ header {
   }
   .panelist {
     padding: 30px;
+  }
+  .web {
+    display: none;
+  }
+  .dropdown {
+    display: block;
   }
 }
 

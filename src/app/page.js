@@ -124,14 +124,18 @@ export default function Home() {
 
             <div id='schedule'>
               <div className='event' id='first'>
-                <div className='title'>
-                  <h1>11 AM - 1 PM: Career, Research, and Internships Fair</h1>
-                  <p>
-                    Join us for some celebratory opening remarks from the organizers to kick-start all event festivities!
-                    This will be followed by a showcase of interactive exhibits from campus clubs and networking opportunities with recruiters and experts from
-                    many organizations in industry or universities. Come ready to explore!
-                  </p>
-                </div>
+                  <div className='title'>
+                    <h1>11 AM - 1 PM: Career, Research, and Internships Fair</h1>
+                    <p>
+                      Join us for some celebratory opening remarks from the organizers to kick-start all event festivities!
+                      This will be followed by a showcase of interactive exhibits and short presentations from campus clubs, and networking opportunities with recruiters and experts from
+                      many organizations in industry or universities. Come ready to explore!
+                    </p>
+                    <ul>
+                      <li>AI Club: Intro to Prompt Engineering</li>
+                      <li>She.Codes Club: TBD</li>
+                    </ul>
+                  </div>
                 <div className='panelists'>
                   <div className="panelist">
                     <div className='paneltitle'>
@@ -142,13 +146,18 @@ export default function Home() {
                       </div>
                     </div>
                     <div>
-                      {/*<Dropdown title='Evan Chou'>*/}
-                        <p>
-                          Evan is an Electrical Engineering Major at Pasadena City College passionate about the intersection of AI in hardware and software.
-                          As the lead organizer for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
-                          Evan enjoys sharing his experiences in career development to inspire others to pursue their passions.
-                        </p>
-                      {/*</Dropdown>*/}
+                      <p className='web'>
+                        Evan is an Electrical Engineering Major at Pasadena City College passionate about the applications of AI in hardware and software.
+                        As the lead organizer for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Evan is an Electrical Engineering Major at Pasadena City College passionate about the applications of AI in hardware and software.
+                            As the lead organizer for the AI Horizons Convention, Evan is excited to share his passion for innovation and technology with the community.
+                          </p>
+                        </Dropdown>
+                      </div>
                     </div>
                   </div>
                   <div className="panelist">
@@ -160,11 +169,18 @@ export default function Home() {
                       </div>
                     </div>
                     <div>
-                      <p>
+                      <p className='web'>
                         Shin is a Computer Science Major at Pasadena City College with a passion for AI and its applications in various fields.
                         As the Vice President of AI Club, Shin is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
-                        He is excited to share his knowledge and experiences with others and inspire them to pursue their interests in technology.
                       </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Shin is a Computer Science Major at Pasadena City College with a passion for AI and its applications in various fields.
+                            As the Vice President of AI Club, Shin is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                          </p>
+                        </Dropdown>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -172,7 +188,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className="title">
-                  <h1>1 - 2 PM: Autonomous Agents</h1>
+                  <h1>1 - 1:45 PM: Autonomous Agents</h1>
                   <p>
                     In our first presentation, David Chou will be explaining what AI agents are. This presentation will help you gain
                     insights into how AI agents are used, and discover how to build AI agents. Finally, David Chou will share his thoughts
@@ -189,30 +205,26 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                      <p>
+                      <p className='web'>
                         David Chou is currently a cloud architect and strategy lead at Microsoft, where he is focused on enterprise developer strategy
                         building on AI app platform and toolchain. He is experienced in software engineering and application development delivering distributed systems.
                       </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            David Chou is currently a cloud architect and strategy lead at Microsoft, where he is focused on enterprise developer strategy
+                            building on AI app platform and toolchain. He is experienced in software engineering and application development delivering distributed systems.
+                          </p>
+                        </Dropdown>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className='event'>
-                {/*
                 <div className="title">
-                  <h1>2:00 - 3:00 PM: Creating Disney Magic with AI</h1>
-                </div>
-                <div className="panelists">
-                  <div className="panelist">
-                    <h1>Ella Lucas</h1>
-                      <h2>R&D Imagineer (AI Engineering) at Walt Disney Imagineering</h2>
-                      <p></p>
-                  </div>
-                </div>
-                */}
-                <div className="title">
-                  <h1>2 - 3 PM: PRESENTATION TO BE ANNOUNCED</h1>
+                  <h1>2 - 2:45 PM: PRESENTATION TO BE ANNOUNCED</h1>
                 </div>
                 <div className="panelists">
                   <div className="panelist">
@@ -223,7 +235,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className='title'>
-                  <h1>3:15 - 4:15 PM: Artificial Intelligence Around the World</h1>
+                  <h1>3:00 - 4:15 PM: Artificial Intelligence Around the World</h1>
                   <p>
                     In this panel discussion, you’ll hear from experts in the field of AI and technology about how AI is being used in different parts of the world.
                     This is a unique opportunity to learn about the global impact of AI and how it is shaping our world, so
@@ -231,33 +243,83 @@ export default function Home() {
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
                 </div>
-                {/*
-                <div className="panelists">
+                <div className="panelists">{/*
                   <div className="panelist">
-                    <h1>Kirby Repko</h1>
-                      <h2>Cloud Solution Architect at Microsoft</h2>
-                      <p></p>
-                  </div>
+                    <div className='paneltitle'>
+                      <img src=""/>
+                      <div>
+                        <h1>Kirby Repko</h1>
+                        <h2>Cloud Solution Architect at Microsoft</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+                        Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
+                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
+                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
+                  </div>*/}{/*
                   <div className="panelist">
                     <h1>Rob Royce</h1>
                       <h2>Data Scientist and AI Advisor at NASA Jet Propulsion Laboratory</h2>
                       <p></p>
+                  </div>*/}{/*
+                  <div className="panelist">
+                    <div className='paneltitle'>
+                      <img src=""/>
+                      <div>
+                        <h1>Nicholas Beaudoin</h1>
+                        <h2>Director of AI Programs at Caltech</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+                        Nicholas Beaudoin leads initiatives at Caltech to advance AI research and education.
+                        He is an expert in the field of AI and has a strong background in machine learning and data science.
+                        Nicholas is dedicated to fostering a culture of innovation and collaboration in the field.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Nicholas Beaudoin leads initiatives at Caltech to advance AI research and education.
+                            He is an expert in the field of AI and has a strong background in machine learning and data science.
+                            Nicholas is dedicated to fostering a culture of innovation and collaboration in the field.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
                   </div>
                   <div className="panelist">
-                    <h1>Shreyansh Daftry</h1>
-                      <h2>Data Scientist at NASA Jet Propulsion Laboratory</h2>
-                      <p></p>
-                  </div>
-                  <div className="panelist">
-                    <h1>Yisong Yue</h1>
-                      <h2>Professor of Computing and Mathematical Sciences at Caltech</h2>
-                      <p></p>
-                  </div>
-                </div>*/}
-                <div className="panelists">
-                  <div className="panelist">
-                    <h1>4 PANELISTS TBA</h1>
-                  </div>
+                    <div className='paneltitle'>
+                        <img src=""/>
+                        <div>
+                          <h1>Anthony Gorrin</h1>
+                          <h2>Senior TPM at Lockheed Martin</h2>
+                        </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+                        Anthony Gorrin is a Senior Technical Program Manager at Lockheed Martin, where he focuses on AI and machine learning initiatives.
+                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Anthony Gorrin is a Senior Technical Program Manager at Lockheed Martin, where he focuses on AI and machine learning initiatives.
+                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
+                  </div>*/}
                 </div>
               </div>
 
@@ -273,28 +335,29 @@ export default function Home() {
                 {/*
                 <div className="panelists">
                   <div className="panelist">
-                    <h1>Xianmei Li</h1>
-                      <h2>Robotics Systems Engineer at NASA Jet Propulsion Laboratory</h2>
-                      <p></p>
-                  </div>
-                  <div className="panelist">
-                    <h1>Rita Sargsyan</h1>
-                      <h2>AI LA IDEAS Program Director & VC/Startups Ambassador</h2>
-                  </div>
-                  <div className="panelist">
-                    <h1>Shiori Nakaya</h1>
-                      <h2>Geophysics Student at UC Riverside</h2>
-                  </div>
-                  <div className="panelist">
-                    <h1>Chandler Desforges</h1>
-                      <h2>Computer Science Student at Pasadena City College</h2>
+                    <div className='paneltitle'>
+                      <img src=""/>
+                      <div>
+                        <h1>Rita Sargsyan</h1>
+                        <h2>AI LA IDEAS Program Director</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+                        Rita Sargsyan is the Director of AI LA IDEAS Program, where she focuses on connecting startups with venture capitalists and investors.
+                        She has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Rita Sargsyan is the Director of AI LA IDEAS Program, where she focuses on connecting startups with venture capitalists and investors.
+                            She has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
                   </div>
                 </div>*/}
-                <div className="panelists">
-                  <div className="panelist">
-                    <h1>4 PANELISTS TBA</h1>
-                  </div>
-                </div>
               </div>
 
               <div className='event'>
@@ -307,25 +370,21 @@ export default function Home() {
                 </div>
                 <div className="panelists">
                   <div className="panelist">
-                    <div>
-                      <h1>Evan Chou</h1>
-                      <h2>President of AI Club</h2>
-                    </div>
-                    <div>
-                      <p>
-                        
-                      </p>
+                    <div className='paneltitle'>
+                      <img src="./images/panelists/evan.jpg" alt="Evan Chou" />
+                      <div>
+                        <h1>Evan Chou</h1>
+                        <h2>President of AI Club</h2>
+                      </div>
                     </div>
                   </div>
                   <div className="panelist">
-                    <div>
-                      <h1>Shin Aung</h1>
-                      <h2>Vice President of AI Club</h2>
-                    </div>
-                    <div>
-                      <p>
-                        
-                      </p>
+                    <div className='paneltitle'>
+                      <img src="./images/panelists/shin.png" alt="Shin Aung" />
+                      <div>
+                        <h1>Shin Aung</h1>
+                        <h2>Vice President of AI Club</h2>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -385,12 +444,12 @@ export default function Home() {
                 <div className='company'>
                   <img src="./images/dsc.png"/>
                   <h1>Data Science Club</h1>
-                  <h2>EEG/Neuroscience Research Projects</h2>
+                  <h2>Data Science Projects: Financial and Brain Data</h2>
                 </div>
                 <div className='company'>
                   <img src="./images/she.codes.png"/>
                   <h1>She.Codes</h1>
-                  <h2>To Be Announced</h2>
+                  <h2>Spotify Unwrapped: DIY Edition</h2>
                 </div>
                 <div className="company">
                   <img src="./images/SCS_Logo.png"/>
@@ -457,12 +516,24 @@ export default function Home() {
                   <h2>Project Manager</h2>
               </div>
               <div>
-                <h1>Dr. Jamal Ashraf</h1>
+                <h1>Jamal Ashraf</h1>
                   <h2>Faculty Advisor</h2>
               </div>
               <div>
-                <h1>Dr. Yu-Chung Chang-Hou</h1>
+                <h1>Yu-Chung Chang-Hou</h1>
                   <h2>AI Horizons Advisor</h2>
+              </div>
+              <div>
+                <h1>Isaac Cheng</h1>
+                  <h2>AI Horizons Intern</h2>
+              </div>
+              <div>
+                <h1>Yu-Wen Wang</h1>
+                  <h2>AI Horizons Intern</h2>
+              </div>
+              <div>
+                <h1>Rehaan Shaw</h1>
+                  <h2>AI Horizons Intern</h2>
               </div>
             </div>
           </section>
