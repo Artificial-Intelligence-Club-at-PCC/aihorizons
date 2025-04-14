@@ -332,8 +332,8 @@ export default function Home() {
                     Whether you’re a first-year student or a graduating senior, this panel discussion is designed to help you take your career to the next level!
                   </p>
                 </div>
-                {/*
-                <div className="panelists">
+                
+                <div className="panelists">{/*
                   <div className="panelist">
                     <div className='paneltitle'>
                       <img src=""/>
@@ -356,8 +356,8 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
-                  </div>
-                </div>*/}
+                  </div>*/}
+                </div>
               </div>
 
               <div className='event'>

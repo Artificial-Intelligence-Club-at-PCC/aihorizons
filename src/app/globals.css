@@ -418,7 +418,7 @@ header {
   .event {
     width: 90vw;
   }
-  .event p {
+  .event p, li {
     font-size: 15px;
   }
   .panelists {
