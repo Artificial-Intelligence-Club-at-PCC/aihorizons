@@ -134,6 +134,7 @@ export default function Home() {
                     <ul>
                       <li>AI Club: Intro to Prompt Engineering</li>
                       <li>She.Codes Club: TBD</li>
+                      <li>STEM Competition Society: TBD</li>
                     </ul>
                   </div>
                 <div className='panelists'>
@@ -235,7 +236,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className='title'>
-                  <h1>3:00 - 4:15 PM: Artificial Intelligence Around the World</h1>
+                  <h1>3:00 - 4:20 PM: Artificial Intelligence Around the World</h1>
                   <p>
                     In this panel discussion, you’ll hear from experts in the field of AI and technology about how AI is being used in different parts of the world.
                     This is a unique opportunity to learn about the global impact of AI and how it is shaping our world, so
@@ -243,7 +244,7 @@ export default function Home() {
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
                 </div>
-                <div className="panelists">{/*
+                <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
                       <img src=""/>
@@ -252,6 +253,7 @@ export default function Home() {
                         <h2>Cloud Solution Architect at Microsoft</h2>
                       </div>
                     </div>
+                    {/*}
                     <div>
                       <p className='web'>
                         Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
@@ -265,13 +267,13 @@ export default function Home() {
                           </p>
                         </Dropdown>
                       </div>
-                    </div>
-                  </div>*/}{/*
+                    </div>*/}
+                  </div>{/*
                   <div className="panelist">
                     <h1>Rob Royce</h1>
                       <h2>Data Scientist and AI Advisor at NASA Jet Propulsion Laboratory</h2>
                       <p></p>
-                  </div>*/}{/*
+                  </div>*/}
                   <div className="panelist">
                     <div className='paneltitle'>
                       <img src=""/>
@@ -280,6 +282,7 @@ export default function Home() {
                         <h2>Director of AI Programs at Caltech</h2>
                       </div>
                     </div>
+                    {/*
                     <div>
                       <p className='web'>
                         Nicholas Beaudoin leads initiatives at Caltech to advance AI research and education.
@@ -295,31 +298,8 @@ export default function Home() {
                           </p>
                         </Dropdown>
                       </div>
-                    </div>
+                    </div>*/}
                   </div>
-                  <div className="panelist">
-                    <div className='paneltitle'>
-                        <img src=""/>
-                        <div>
-                          <h1>Anthony Gorrin</h1>
-                          <h2>Senior TPM at Lockheed Martin</h2>
-                        </div>
-                    </div>
-                    <div>
-                      <p className='web'>
-                        Anthony Gorrin is a Senior Technical Program Manager at Lockheed Martin, where he focuses on AI and machine learning initiatives.
-                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
-                      </p>
-                      <div className='dropdown'>
-                        <Dropdown>
-                          <p>
-                            Anthony Gorrin is a Senior Technical Program Manager at Lockheed Martin, where he focuses on AI and machine learning initiatives.
-                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
-                          </p>
-                        </Dropdown>
-                      </div>
-                    </div>
-                  </div>*/}
                 </div>
               </div>
 
@@ -333,7 +313,7 @@ export default function Home() {
                   </p>
                 </div>
                 
-                <div className="panelists">{/*
+                <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
                       <img src=""/>
@@ -342,6 +322,7 @@ export default function Home() {
                         <h2>AI LA IDEAS Program Director</h2>
                       </div>
                     </div>
+                    {/*
                     <div>
                       <p className='web'>
                         Rita Sargsyan is the Director of AI LA IDEAS Program, where she focuses on connecting startups with venture capitalists and investors.
@@ -356,7 +337,56 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
-                  </div>*/}
+                    */}
+                  </div>
+                  <div className="panelist">
+                    <div className="paneltitle">
+                      <img src=""/>
+                      <div>
+                        <h1>Daphne Nea</h1>
+                        <h2>Computer Science Student at PCC</h2>
+                      </div>
+                    </div>
+                    {/*
+                    <div>
+                      <p className='web'>
+                        Daphne Nea is a Computer Science student at Pasadena City College, where she is passionate about AI and its applications in various fields.
+                        She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Daphne Nea is a Computer Science student at Pasadena City College, where she is passionate about AI and its applications in various fields.
+                            She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>*/}
+                  </div>
+                  <div className="panelist">
+                    <div className="paneltitle">
+                      <img src=""/>
+                      <div>
+                        <h1>Emily Muditar</h1>
+                        <h2>Biological Sciences & Physics Student at PCC</h2>
+                      </div>
+                    </div>
+                    {/*
+                    <div>
+                      <p className='web'>
+                        Emily Muditar is a Biological Sciences and Physics student at Pasadena City College, where she is passionate about the applications of AI in healthcare and research.
+                        She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Emily Muditar is a Biological Sciences and Physics student at Pasadena City College, where she is passionate about the applications of AI in healthcare and research.
+                            She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>*/}
+                  </div>
                 </div>
               </div>
 
@@ -412,7 +442,7 @@ export default function Home() {
                 <div className='company'>
                   <img src="./images/ucla.png"/>
                   <h1>University of California: Los Angeles</h1>
-                  <h2>Organization for Cultural Diversity in Science</h2>
+                  <h2>DataX</h2>
                 </div>*/}
                 <div className='company'>
                   <img src="./images/aila.png"/>
@@ -454,7 +484,7 @@ export default function Home() {
                 <div className="company">
                   <img src="./images/SCS_Logo.png"/>
                   <h1>STEM Competition Society</h1>
-                  <h2>To Be Announced</h2>
+                  <h2>Speaking the Language of the Stars</h2>
                 </div>
                 <div className="company">
                   <img src="./images/piclub.jpg"/>
@@ -484,7 +514,7 @@ export default function Home() {
                   <h2>Vice President</h2>
               </div>
               <div>
-                <h1>Akki Akshit</h1>
+                <h1>Akki Singh</h1>
                   <h2>Secretary</h2>
               </div>
               <div>
