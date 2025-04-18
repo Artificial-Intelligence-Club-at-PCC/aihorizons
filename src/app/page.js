@@ -15,7 +15,7 @@ function startCountdown() {
       const timeDifference = targetDate - now;
 
       if (timeDifference <= 0) {
-          return "COUNTDOWN FINISHED!";
+          return "WELCOME TO AI HORIZONS!";
       }
 
       const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
@@ -160,6 +160,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                   <div className="panelist">
                     <div className='paneltitle'>
@@ -183,6 +184,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                 </div>
               </div>
@@ -219,6 +221,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
+                    <img src="./images/microsoft.png" id='org'/>
                   </div>
                 </div>
               </div>
@@ -247,7 +250,7 @@ export default function Home() {
                 <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src=""/>
+                      <img src="./images/panelists/Kirby.jpg"/>
                       <div>
                         <h1>Kirby Repko</h1>
                         <h2>Cloud Solution Architect at Microsoft</h2>
@@ -268,6 +271,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>*/}
+                    <img src="./images/microsoft.png" id='org'/>
                   </div>{/*
                   <div className="panelist">
                     <h1>Rob Royce</h1>
@@ -276,29 +280,29 @@ export default function Home() {
                   </div>*/}
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src=""/>
+                      <img src="./images/panelists/nicholas.webp"/>
                       <div>
                         <h1>Nicholas Beaudoin</h1>
                         <h2>Director of AI Programs at Caltech</h2>
                       </div>
                     </div>
-                    {/*
                     <div>
                       <p className='web'>
-                        Nicholas Beaudoin leads initiatives at Caltech to advance AI research and education.
-                        He is an expert in the field of AI and has a strong background in machine learning and data science.
-                        Nicholas is dedicated to fostering a culture of innovation and collaboration in the field.
+                        Nicholas Beaudoin is the Affiliate Director of AI Programs for Caltech’s Center for Technology and Management Education (CTME) and has a decade of 
+                        experience leading teams in the AI/ML industry. His day job is as an AI expert for Wavicle Data Solutions where he leads teams to design and implement AI/ML projects. 
+                        He has worked on innovative solutions for companies such as Disney, Mercedez-Benz, Honda, and various agencies in the federal government.
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Nicholas Beaudoin leads initiatives at Caltech to advance AI research and education.
-                            He is an expert in the field of AI and has a strong background in machine learning and data science.
-                            Nicholas is dedicated to fostering a culture of innovation and collaboration in the field.
+                            Nicholas Beaudoin is the Affiliate Director of AI Programs for Caltech’s Center for Technology and Management Education (CTME) and has a decade of 
+                            experience leading teams in the AI/ML industry. His day job is as an AI expert for Wavicle Data Solutions where he leads teams to design and implement AI/ML projects. 
+                            He has worked on innovative solutions for companies such as Disney, Mercedez-Benz, Honda, and various agencies in the federal government.
                           </p>
                         </Dropdown>
                       </div>
-                    </div>*/}
+                    </div>
+                    <img src="./images/caltech_letters.png" id='org'/>
                   </div>
                 </div>
               </div>
@@ -338,6 +342,7 @@ export default function Home() {
                       </div>
                     </div>
                     */}
+                    <img src="./images/aila.png" id='org'/>
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
@@ -362,6 +367,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>*/}
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
@@ -386,6 +392,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>*/}
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                 </div>
               </div>

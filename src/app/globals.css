@@ -410,6 +410,11 @@ header {
   gap: 20px;
 }
 
+#org {
+  width:fit-content;
+  height: 50px;
+}
+
 .dropdown {
   display:none;
 }
