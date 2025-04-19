@@ -321,28 +321,32 @@ export default function Home() {
                 <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
-                      {/*<img src="./images/panelists/rita.png"/>*/}
+                      <img src="./images/panelists/rita.JPG"/>
                       <div>
                         <h1>Rita Sargsyan</h1>
                         <h2>AI LA IDEAS Program Director</h2>
                       </div>
                     </div>
-                    {/*
                     <div>
                       <p className='web'>
-                        Rita Sargsyan is the Director of AI LA IDEAS Program, where she focuses on connecting startups with venture capitalists and investors.
-                        She has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                      Rita serves as Program Director and Founders/Investors Ambassador at AI LA, where she builds community-driven programs at the intersection of AI, 
+                      education, and entrepreneurship—like the IDEAS Program, which equips college students with the tools, mentorship, and hands-on experience to explore and succeed 
+                      in the world of AI and emerging tech. She previously supported early-stage founders as a Platform Coordinator at the UCLA Venture Accelerator and has worked across 
+                      venture capital, product, and strategy roles with a focus on AI for social good. With a background in Applied Math from UCLA, Rita is passionate about making tech and 
+                      entrepreneurship more inclusive—mentoring the next generation of changemakers from all majors and communities.
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Rita Sargsyan is the Director of AI LA IDEAS Program, where she focuses on connecting startups with venture capitalists and investors.
-                            She has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                          Rita serves as Program Director and Founders/Investors Ambassador at AI LA, where she builds community-driven programs at the intersection of AI, 
+                          education, and entrepreneurship—like the IDEAS Program, which equips college students with the tools, mentorship, and hands-on experience to explore and succeed 
+                          in the world of AI and emerging tech. She previously supported early-stage founders as a Platform Coordinator at the UCLA Venture Accelerator and has worked across 
+                          venture capital, product, and strategy roles with a focus on AI for social good. With a background in Applied Math from UCLA, Rita is passionate about making tech and 
+                          entrepreneurship more inclusive—mentoring the next generation of changemakers from all majors and communities.
                           </p>
                         </Dropdown>
                       </div>
                     </div>
-                    */}
                     <img src="./images/aila.png" id='org'/>
                   </div>
                   <div className="panelist">
@@ -372,7 +376,7 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
-                      <img src=""/>
+                      {/*<img src=""/>*/}
                       <div>
                         <h1>Emily Muditar</h1>
                         <h2>Biological Sciences & Physics Student at PCC</h2>
@@ -415,6 +419,7 @@ export default function Home() {
                         <h2>President of AI Club</h2>
                       </div>
                     </div>
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                   <div className="panelist">
                     <div className='paneltitle'>
@@ -424,6 +429,7 @@ export default function Home() {
                         <h2>Vice President of AI Club</h2>
                       </div>
                     </div>
+                    <img src="./images/pcc_1.png" id='org'/>
                   </div>
                 </div>
               </div>
