@@ -310,7 +310,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className="title">
-                  <h1>4:30 - 5:30 PM: Accelerate your Career Development Panel</h1>
+                  <h1>4:30 - 5:30 PM: Accelerate your Career Development</h1>
                   <p>
                     In this panel discussion, you’ll learn how to leverage your skills and experiences to stand out in a competitive job market,
                     and gain insights into the skills and qualities that employers are looking for in candidates.

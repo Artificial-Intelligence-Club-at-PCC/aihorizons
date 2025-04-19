@@ -453,6 +453,10 @@ header {
     align-items: center;
     justify-content: center;
   }
+  .paneltitle img {
+    width: 200px;
+    height: 200px;
+  }
   .web {
     display: none;
   }
