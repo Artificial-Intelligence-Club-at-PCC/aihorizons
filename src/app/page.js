@@ -198,6 +198,7 @@ export default function Home() {
                     insights into how AI agents are used, and discover how to build AI agents. Finally, David Chou will share his thoughts
                     on the future of AI and what we can look forward to in the coming years!
                   </p>
+                  <img src="./images/flyers/agents_land.png"/>
                 </div>
                 <div className="panelists">
                   <div className='panelist'>
