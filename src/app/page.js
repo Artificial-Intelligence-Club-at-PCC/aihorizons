@@ -135,6 +135,7 @@ export default function Home() {
                       <li>AI Club: Intro to Prompt Engineering</li>
                       <li>She.Codes Club: TBD</li>
                       <li>STEM Competition Society: TBD</li>
+                      <li>Data Science Club: Simulating the Human Brain - A Data Driven Approach</li>
                     </ul>
                   </div>
                 <div className='panelists'>
@@ -320,7 +321,7 @@ export default function Home() {
                 <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src=""/>
+                      {/*<img src="./images/panelists/rita.png"/>*/}
                       <div>
                         <h1>Rita Sargsyan</h1>
                         <h2>AI LA IDEAS Program Director</h2>
@@ -346,7 +347,7 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
-                      <img src=""/>
+                      {/*<img src="./images/panelists/daphne.png"/>*/}
                       <div>
                         <h1>Daphne Nea</h1>
                         <h2>Computer Science Student at PCC</h2>

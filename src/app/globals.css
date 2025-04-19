@@ -443,12 +443,24 @@ header {
   }
   .panelist {
     padding: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .paneltitle {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   .web {
     display: none;
   }
   .dropdown {
     display: block;
+  }
+  .title li {
+    font-size:15px;
   }
 }
 
