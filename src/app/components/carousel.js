@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const flyers = [
-  "./images/flyers/blue_aihorizons.jpg",
-  "./images/flyers/orange_aihorizons.jpg",
+  "./images/flyers/blue_aihorizons.png",
+  "./images/flyers/orange_aihorizons.png",
   "./images/flyers/david_flyer.jpeg",
 ];
 

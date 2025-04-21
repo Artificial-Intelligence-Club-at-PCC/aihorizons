@@ -137,6 +137,7 @@ export default function Home() {
                       <li>STEM Competition Society: TBD</li>
                       <li>Data Science Club: Simulating the Human Brain - A Data Driven Approach</li>
                     </ul>
+                    <img src='./images/flyers/landscape.png'/>
                   </div>
                 <div className='panelists'>
                   <div className="panelist">
@@ -410,6 +411,7 @@ export default function Home() {
                     Join us for closing remarks from the organizers to wrap up the event and thank our panelists and attendees for their participation!
                     This will be followed by an opportunity to network with guest speakers, industry experts, and students, so come ready to make connections!
                   </p>
+                  <img src="./images/flyers/aibanner.png"/>
                 </div>
                 <div className="panelists">
                   <div className="panelist">
