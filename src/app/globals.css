@@ -427,6 +427,7 @@ header {
 @media (max-width: 768px) {
   #schedule {
     gap: 20px;
+    padding: 10px;
   }
   .event {
     width: 90vw;
