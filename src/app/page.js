@@ -283,7 +283,7 @@ export default function Home() {
                   </div>*/}
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src="./images/panelists/nicholas.webp"/>
+                      <img src="./images/panelists/nicholas.jpg"/>
                       <div>
                         <h1>Nicholas Beaudoin</h1>
                         <h2>Director of AI Programs at Caltech</h2>
@@ -353,27 +353,30 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
-                      {/*<img src="./images/panelists/daphne.png"/>*/}
+                      <img src="./images/panelists/daphne.jpg"/>
                       <div>
                         <h1>Daphne Nea</h1>
                         <h2>Computer Science Student at PCC</h2>
                       </div>
                     </div>
-                    {/*
                     <div>
                       <p className='web'>
-                        Daphne Nea is a Computer Science student at Pasadena City College, where she is passionate about AI and its applications in various fields.
-                        She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                      Daphne Nea is a Mission Operations intern for NASA's Lunar Trailblazer, which launched on February 26th, and an Honors Computer Science student at Pasadena City College 
+                      preparing to transfer this upcoming fall. She contributes to mission operations by scripting automation tools in Python, running simulations on virtual machines and 
+                      testbeds, operating a live in-flight spacecraft, communicating with the Deep Space Network, and analyzing real-time telemetry data. This summer, she will join Caltech’s 
+                      SURF program under Dr. Bethany Ehlmann to develop software tools for spacecraft data collection.
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Daphne Nea is a Computer Science student at Pasadena City College, where she is passionate about AI and its applications in various fields.
-                            She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                          Daphne Nea is a Mission Operations intern for NASA's Lunar Trailblazer, which launched on February 26th, and an Honors Computer Science student at Pasadena City College 
+                          preparing to transfer this upcoming fall. She contributes to mission operations by scripting automation tools in Python, running simulations on virtual machines and 
+                          testbeds, operating a live in-flight spacecraft, communicating with the Deep Space Network, and analyzing real-time telemetry data. This summer, she will join Caltech’s 
+                          SURF program under Dr. Bethany Ehlmann to develop software tools for spacecraft data collection.
                           </p>
                         </Dropdown>
                       </div>
-                    </div>*/}
+                    </div>
                     <img src="./images/pcc_1.png" id='org'/>
                   </div>
                   <div className="panelist">
