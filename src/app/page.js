@@ -231,11 +231,22 @@ export default function Home() {
 
               <div className='event'>
                 <div className="title">
-                  <h1>2 - 2:45 PM: PRESENTATION TO BE ANNOUNCED</h1>
+                  <h1>2 - 2:45 PM: TO BE ANNOUNCED</h1>
                 </div>
                 <div className="panelists">
+                  {/*
                   <div className="panelist">
-                    <h1>SPEAKER TBA</h1>
+                    <div className='paneltitle'>
+                      
+                      <div>
+                        <h1>Rob Royce</h1>
+                        <h2>Data Scientist & AI Advisor at NASA JPL</h2>
+                      </div>
+                    </div>
+                    <img src="./images/jplletters.png" id='org'/>
+                  </div>*/}
+                  <div className='panelist'>
+                    <h1>TO BE ANNOUNCED</h1>
                   </div>
                 </div>
               </div>
@@ -381,10 +392,10 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
-                      {/*<img src=""/>*/}
+                      <img src="./images/panelists/emily.jpg"/>
                       <div>
                         <h1>Emily Muditar</h1>
-                        <h2>Biological Sciences & Physics Student at PCC</h2>
+                        <h2>Research Fellow at Caltech LIGO</h2>
                       </div>
                     </div>
                     {/*
@@ -402,7 +413,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>*/}
-                    <img src="./images/pcc_1.png" id='org'/>
+                    <img src="./images/caltech_letters.png" id='org'/>
                   </div>
                 </div>
               </div>
