@@ -425,12 +425,13 @@ header {
 }
 
 @media (max-width: 768px) {
+
   #schedule {
     gap: 20px;
-    padding: 0px;
   }
   .event {
     width: 90vw;
+    padding: 10px;
   }
   .event p, li {
     font-size: 15px;
