@@ -166,7 +166,7 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src="./images/panelists/shin.png" alt="Shin Aung" />
+                      <img src="./images/panelists/shin.jpg" alt="Shin Aung" />
                       <div>
                         <h1>Shin Aung</h1>
                         <h2>Vice President of AI Club</h2>
@@ -367,7 +367,7 @@ export default function Home() {
                       <img src="./images/panelists/daphne.jpg"/>
                       <div>
                         <h1>Daphne Nea</h1>
-                        <h2>Computer Science Student at PCC</h2>
+                        <h2>Lunar Trailblazer Intern at JPL/Caltech</h2>
                       </div>
                     </div>
                     <div>
@@ -388,7 +388,7 @@ export default function Home() {
                         </Dropdown>
                       </div>
                     </div>
-                    <img src="./images/pcc_1.png" id='org'/>
+                    <img src="./images/jplletters.png" id='org'/>
                   </div>
                   <div className="panelist">
                     <div className="paneltitle">
@@ -440,7 +440,7 @@ export default function Home() {
                   </div>
                   <div className="panelist">
                     <div className='paneltitle'>
-                      <img src="./images/panelists/shin.png" alt="Shin Aung" />
+                      <img src="./images/panelists/shin.jpg" alt="Shin Aung" />
                       <div>
                         <h1>Shin Aung</h1>
                         <h2>Vice President of AI Club</h2>
