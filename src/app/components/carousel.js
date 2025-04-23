@@ -4,8 +4,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const flyers = [
   "./images/flyers/blue_aihorizons.png",
-  "./images/flyers/orange_aihorizons.png",
   "./images/flyers/david_flyer.jpeg",
+  "./images/flyers/orange_aihorizons.png",
+  "./images/flyers/career.png",
 ];
 
 export default function FlyerCarousel() {
