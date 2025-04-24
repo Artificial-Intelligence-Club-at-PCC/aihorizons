@@ -196,7 +196,7 @@ export default function Home() {
                   <h1>1 - 1:45 PM: Autonomous Agents</h1>
                   <p>
                     In our first presentation, David Chou will be explaining what AI agents are. This presentation will help you gain
-                    insights into how AI agents are used, and discover how to build AI agents. Finally, David Chou will share his thoughts
+                    insights into how AI agents are used, and discover how to build AI agents. Finally, David will share his thoughts
                     on the future of AI and what we can look forward to in the coming years!
                   </p>
                   <img src="./images/flyers/agents_land.png"/>
@@ -398,21 +398,30 @@ export default function Home() {
                         <h2>Research Fellow at Caltech LIGO</h2>
                       </div>
                     </div>
-                    {/*
                     <div>
                       <p className='web'>
-                        Emily Muditar is a Biological Sciences and Physics student at Pasadena City College, where she is passionate about the applications of AI in healthcare and research.
-                        She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                      Like a gas particle, Emily is in constant random motion with her busy eventful life. She has developed organizational, time management, research, and communication 
+                      skills from previous work-life experiences. She is an undergraduate student currently studying Biological Sciences full time, and working as a Behavior Interventionist, 
+                      AmeriCorps Literacy Intern, and Teacher Aide. 
+
+                      She is part of Caltech LIGO Research Study Group, partaking in weekly Astrophysics discussions with a focus on gravitational wave detection. 
+                      She adores physics and hopes to minor in it when she transfers. Emily is working on multiple independent research projects. Career development and the educational 
+                      journey toward a career are two topics Emily is looking forward to discussing on this panel!
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Emily Muditar is a Biological Sciences and Physics student at Pasadena City College, where she is passionate about the applications of AI in healthcare and research.
-                            She is dedicated to fostering a community of innovators and thinkers who are eager to explore the potential of AI.
+                          Like a gas particle, Emily is in constant random motion with her busy eventful life. She has developed organizational, time management, research, and communication 
+                          skills from previous work-life experiences. She is an undergraduate student currently studying Biological Sciences full time, and working as a Behavior Interventionist, 
+                          AmeriCorps Literacy Intern, and Teacher Aide. 
+
+                          She is part of Caltech LIGO Research Study Group, partaking in weekly Astrophysics discussions with a focus on gravitational wave detection. 
+                          She adores physics and hopes to minor in it when she transfers. Emily is working on multiple independent research projects. Career development and the educational 
+                          journey toward a career are two topics Emily is looking forward to discussing on this panel!
                           </p>
                         </Dropdown>
                       </div>
-                    </div>*/}
+                    </div>
                     <img src="./images/caltech_letters.png" id='org'/>
                   </div>
                 </div>
