@@ -362,6 +362,27 @@ export default function Home() {
                     </div>
                     <img src="./images/aila.png" id='org'/>
                   </div>
+                  <div className='panelist'>
+                    <div className='paneltitle'>
+                      <div>
+                        <h1>Ivy Chen</h1>
+                        <h2>Graduate Research Fellow at Caltech</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
+                    <img src='./images/caltech_letters.png' id='org'/>
+                  </div>
                   <div className="panelist">
                     <div className="paneltitle">
                       <img src="./images/panelists/daphne.jpg"/>
