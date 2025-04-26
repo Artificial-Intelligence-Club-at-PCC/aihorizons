@@ -364,19 +364,22 @@ export default function Home() {
                   </div>
                   <div className='panelist'>
                     <div className='paneltitle'>
+                      <img src="./images/panelists/ivy.jpg"/>
                       <div>
                         <h1>Ivy Chen</h1>
-                        <h2>Graduate Research Fellow at Caltech</h2>
+                        <h2>Graduate Student Researcher at Caltech</h2>
                       </div>
                     </div>
                     <div>
                       <p className='web'>
-
+                      Ivy is a third-year graduate student at Caltech studying applied physics. She completed her undergraduate degree at Harvey Mudd College before working at Google as a 
+                      software engineer prior to graduate school. Ivy's current research interests are in the field of nanofabrication, specifically in atomic layer etching for nanophotonic materials.
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            
+                          Ivy is a third-year graduate student at Caltech studying applied physics. She completed her undergraduate degree at Harvey Mudd College before working at Google as a 
+                          software engineer prior to graduate school. Ivy's current research interests are in the field of nanofabrication, specifically in atomic layer etching for nanophotonic materials.
                           </p>
                         </Dropdown>
                       </div>
