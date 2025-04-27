@@ -282,6 +282,10 @@ header {
   font-weight:bold;
 }
 
+#parking2 {
+  width: 600px;
+}
+
 @media (max-width: 768px) {
   #paragraph {
     width: 90vw;
@@ -298,6 +302,10 @@ header {
   #paragraph button {
     width: 80vw;
     font-size: 15px;
+  }
+
+  #parking2 {
+    width: 90vw;
   }
 }
 

@@ -114,6 +114,7 @@ export default function Home() {
               <div>
                 <FlyerCarousel />
               </div>
+              <img src="./images/parking.png" id='parking2'/>
             </div>
           </section>
 
@@ -234,35 +235,7 @@ export default function Home() {
                   <h1>2 - 2:45 PM: TO BE ANNOUNCED</h1>
                 </div>
                 <div className="panelists">
-                  {/*
-                  <div className="panelist">
-                    <div className='paneltitle'>
-                      
-                      <div>
-                        <h1>Rob Royce</h1>
-                        <h2>Data Scientist & AI Advisor at NASA JPL</h2>
-                      </div>
-                    </div>
-                    <img src="./images/jplletters.png" id='org'/>
-                  </div>*/}
-                  <div className='panelist'>
-                    <h1>TO BE ANNOUNCED</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div className='event'>
-                <div className='title'>
-                  <h1>3:00 - 4:20 PM: Artificial Intelligence Around the World</h1>
-                  <p>
-                    In this panel discussion, you’ll hear from experts in the field of AI and technology about how AI is being used in different parts of the world.
-                    This is a unique opportunity to learn about the global impact of AI and how it is shaping our world, so
-                    whether you’re interested in the ethical implications of AI or the future of work in a globalized world,
-                    this panel discussion is sure to provide valuable insights and perspectives!
-                  </p>
-                </div>
-                <div className="panelists">
-                  <div className="panelist">
+                <div className="panelist">
                     <div className='paneltitle'>
                       <img src="./images/panelists/Kirby.jpg"/>
                       <div>
@@ -286,12 +259,21 @@ export default function Home() {
                       </div>
                     </div>*/}
                     <img src="./images/microsoft.png" id='org'/>
-                  </div>{/*
-                  <div className="panelist">
-                    <h1>Rob Royce</h1>
-                      <h2>Data Scientist and AI Advisor at NASA Jet Propulsion Laboratory</h2>
-                      <p></p>
-                  </div>*/}
+                  </div>
+                </div>
+              </div>
+
+              <div className='event'>
+                <div className='title'>
+                  <h1>3:00 - 4:15 PM: Artificial Intelligence Around the World</h1>
+                  <p>
+                    In this panel discussion, you’ll hear from experts in the field of AI and technology about how AI is being used in different parts of the world.
+                    This is a unique opportunity to learn about the global impact of AI and how it is shaping our world, so
+                    whether you’re interested in the ethical implications of AI or the future of work in a globalized world,
+                    this panel discussion is sure to provide valuable insights and perspectives!
+                  </p>
+                </div>
+                <div className="panelists">
                   <div className="panelist">
                     <div className='paneltitle'>
                       <img src="./images/panelists/nicholas.jpg"/>
@@ -317,6 +299,31 @@ export default function Home() {
                       </div>
                     </div>
                     <img src="./images/caltech_letters.png" id='org'/>
+                  </div>
+                  <div className="panelist">
+                    <div className='paneltitle'>
+                      <img src="./images/panelists/Kirby.jpg"/>
+                      <div>
+                        <h1>Kirby Repko</h1>
+                        <h2>Cloud Solution Architect at Microsoft</h2>
+                      </div>
+                    </div>
+                    {/*}
+                    <div>
+                      <p className='web'>
+                        Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
+                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                            Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
+                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>*/}
+                    <img src="./images/microsoft.png" id='org'/>
                   </div>
                 </div>
               </div>
