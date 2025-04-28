@@ -231,7 +231,7 @@ export default function Home() {
 
               <div className='event'>
                 <div className="title">
-                  <h1>2 - 2:45 PM: TO BE ANNOUNCED</h1>
+                  <h1>2 - 2:45 PM: AI - Inspiring the Next Generation of Innovators</h1>
                 </div>
                 <div className="panelists">
                 <div className="panelist">
