@@ -135,7 +135,6 @@ export default function Home() {
                     <ul>
                       <li>AI Club: Intro to Prompt Engineering</li>
                       <li>She.Codes Club: TBD</li>
-                      <li>STEM Competition Society: TBD</li>
                       <li>Data Science Club: Simulating the Human Brain - A Data Driven Approach</li>
                     </ul>
                     <img src='./images/flyers/landscape.png'/>
@@ -338,7 +337,7 @@ export default function Home() {
                         Jamal Ashraf is a senior faculty member at Pasadena City College, bringing over 30 years of experience in computer science education, with expertise in 
                         Python, Java, and data structures. Passionate about integrating artificial intelligence and data science into education, he developed PCC’s Data Science Certificate 
                         program, which has enabled over 150 students to gain advanced skills and secure opportunities at leading tech companies and universities. Beyond teaching, Jamal 
-                        entors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
+                        mentors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
                         next generation of technologists.
                       </p>
                       <div className='dropdown'>
@@ -347,7 +346,7 @@ export default function Home() {
                           Jamal Ashraf is a senior faculty member at Pasadena City College, bringing over 30 years of experience in computer science education, with expertise in 
                           Python, Java, and data structures. Passionate about integrating artificial intelligence and data science into education, he developed PCC’s Data Science Certificate 
                           program, which has enabled over 150 students to gain advanced skills and secure opportunities at leading tech companies and universities. Beyond teaching, Jamal 
-                          entors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
+                          mentors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
                           next generation of technologists.
                           </p>
                         </Dropdown>
