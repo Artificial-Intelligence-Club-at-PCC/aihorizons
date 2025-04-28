@@ -325,6 +325,36 @@ export default function Home() {
                     </div>*/}
                     <img src="./images/microsoft.png" id='org'/>
                   </div>
+                  <div className="panelist">
+                    <div className='paneltitle'>
+                      <img src='./images/panelists/ashraf.png'/>
+                      <div>
+                        <h1>Jamal Ashraf</h1>
+                        <h2>Computer Science Professor at PCC</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <p className='web'>
+                        Jamal Ashraf is a senior faculty member at Pasadena City College, bringing over 30 years of experience in computer science education, with expertise in 
+                        Python, Java, and data structures. Passionate about integrating artificial intelligence and data science into education, he developed PCC’s Data Science Certificate 
+                        program, which has enabled over 150 students to gain advanced skills and secure opportunities at leading tech companies and universities. Beyond teaching, Jamal 
+                        entors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
+                        next generation of technologists.
+                      </p>
+                      <div className='dropdown'>
+                        <Dropdown>
+                          <p>
+                          Jamal Ashraf is a senior faculty member at Pasadena City College, bringing over 30 years of experience in computer science education, with expertise in 
+                          Python, Java, and data structures. Passionate about integrating artificial intelligence and data science into education, he developed PCC’s Data Science Certificate 
+                          program, which has enabled over 150 students to gain advanced skills and secure opportunities at leading tech companies and universities. Beyond teaching, Jamal 
+                          entors student-led clubs such as AIML and She.Codes. His dedication to equity in STEM and real-world applications has earned him recognition for fostering academic-industry connections and inspiring the 
+                          next generation of technologists.
+                          </p>
+                        </Dropdown>
+                      </div>
+                    </div>
+                    <img src='./images/pcc_1.png' id='org'/>
+                  </div>
                 </div>
               </div>
 
