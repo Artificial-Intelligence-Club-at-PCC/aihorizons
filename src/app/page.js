@@ -242,21 +242,24 @@ export default function Home() {
                         <h2>Cloud Solution Architect at Microsoft</h2>
                       </div>
                     </div>
-                    {/*}
                     <div>
                       <p className='web'>
-                        Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
-                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                        As a Cloud Solution Architect at Microsoft for over nine years and 34 years in the IT industry, Kirby specializes in 
+                        designing and implementing scalable cloud data platforms. His role focuses on empowering organizations to adopt 
+                        innovative SaaS solutions using Azure technologies. Kirby is a certified expert in cloud platforms and data solutions, 
+                        with a strong foundation in Generative AI, SQL Server, PostgreSQL, analytics and data warehousing. 
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
-                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                            As a Cloud Solution Architect at Microsoft for over nine years and 34 years in the IT industry, Kirby specializes in 
+                            designing and implementing scalable cloud data platforms. His role focuses on empowering organizations to adopt 
+                            innovative SaaS solutions using Azure technologies. Kirby is a certified expert in cloud platforms and data solutions, 
+                            with a strong foundation in Generative AI, SQL Server, PostgreSQL, analytics and data warehousing.
                           </p>
                         </Dropdown>
                       </div>
-                    </div>*/}
+                    </div>
                     <img src="./images/microsoft.png" id='org'/>
                   </div>
                 </div>
