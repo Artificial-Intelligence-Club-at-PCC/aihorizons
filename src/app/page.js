@@ -134,7 +134,7 @@ export default function Home() {
                     </p>
                     <ul>
                       <li>AI Club: Intro to Prompt Engineering</li>
-                      <li>She.Codes Club: TBD</li>
+                      <li>STEM Competition Society: TBD</li>
                       <li>Data Science Club: Simulating the Human Brain - A Data Driven Approach</li>
                     </ul>
                     <img src='./images/flyers/landscape.png'/>
@@ -274,6 +274,7 @@ export default function Home() {
                     whether you’re interested in the ethical implications of AI or the future of work in a globalized world,
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
+                  <p>Moderator: Shin Aung - Vice President of AI Club at PCC</p>
                 </div>
                 <div className="panelists">
                   <div className="panelist">
@@ -310,21 +311,24 @@ export default function Home() {
                         <h2>Cloud Solution Architect at Microsoft</h2>
                       </div>
                     </div>
-                    {/*}
                     <div>
                       <p className='web'>
-                        Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
-                        He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                        As a Cloud Solution Architect at Microsoft for over nine years and 34 years in the IT industry, Kirby specializes in 
+                        designing and implementing scalable cloud data platforms. His role focuses on empowering organizations to adopt 
+                        innovative SaaS solutions using Azure technologies. Kirby is a certified expert in cloud platforms and data solutions, 
+                        with a strong foundation in Generative AI, SQL Server, PostgreSQL, analytics and data warehousing. 
                       </p>
                       <div className='dropdown'>
                         <Dropdown>
                           <p>
-                            Kirby Repko is a Cloud Solution Architect at Microsoft, where he specializes in cloud architecture and technology solutions.
-                            He has extensive experience in the field of AI and is passionate about helping organizations leverage the power of AI to drive innovation and growth.
+                            As a Cloud Solution Architect at Microsoft for over nine years and 34 years in the IT industry, Kirby specializes in 
+                            designing and implementing scalable cloud data platforms. His role focuses on empowering organizations to adopt 
+                            innovative SaaS solutions using Azure technologies. Kirby is a certified expert in cloud platforms and data solutions, 
+                            with a strong foundation in Generative AI, SQL Server, PostgreSQL, analytics and data warehousing.
                           </p>
                         </Dropdown>
                       </div>
-                    </div>*/}
+                    </div>
                     <img src="./images/microsoft.png" id='org'/>
                   </div>
                   <div className="panelist">
@@ -369,6 +373,7 @@ export default function Home() {
                     Whether you’re a first-year student or a graduating senior, this panel discussion is designed to help you take your career to the next level!
                   </p>
                   <img src='./images/flyers/career_landscape.jpg'/>
+                  <p>Moderator: Vivian Nguyen - Treasurer of AI Club at PCC</p>
                 </div>
                 
                 <div className="panelists">
