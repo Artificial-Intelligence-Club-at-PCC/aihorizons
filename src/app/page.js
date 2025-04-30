@@ -283,7 +283,7 @@ export default function Home() {
                       <img src="./images/panelists/nicholas.jpg"/>
                       <div>
                         <h1>Nicholas Beaudoin</h1>
-                        <h2>Director of AI Programs at Caltech</h2>
+                        <h2>Director of AI Programs at Caltech CTME</h2>
                       </div>
                     </div>
                     <div>
