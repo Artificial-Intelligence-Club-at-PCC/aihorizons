@@ -134,7 +134,6 @@ export default function Home() {
                     </p>
                     <ul>
                       <li>AI Club: Intro to Prompt Engineering</li>
-                      <li>STEM Competition Society: TBD</li>
                       <li>Data Science Club: Simulating the Human Brain - A Data Driven Approach</li>
                     </ul>
                     <img src='./images/flyers/landscape.png'/>
@@ -232,6 +231,7 @@ export default function Home() {
               <div className='event'>
                 <div className="title">
                   <h1>2 - 2:45 PM: AI - Inspiring the Next Generation of Innovators</h1>
+                  <img src='./images/flyers/inspiring_landscape.png'/>
                 </div>
                 <div className="panelists">
                 <div className="panelist">
@@ -274,6 +274,7 @@ export default function Home() {
                     whether you’re interested in the ethical implications of AI or the future of work in a globalized world,
                     this panel discussion is sure to provide valuable insights and perspectives!
                   </p>
+                  <img src='./images/flyers/ai_landscape.png'/>
                   <p>Moderator: Shin Aung - Vice President of AI Club at PCC</p>
                 </div>
                 <div className="panelists">
@@ -547,12 +548,7 @@ export default function Home() {
                   <img src="./images/caltech_letters.png"/>
                   <h1>California Institute of Technology</h1>
                   <h2>Caltech Connections Program</h2>
-                </div>{/*}
-                <div className='company'>
-                  <img src="./images/ucla.png"/>
-                  <h1>University of California: Los Angeles</h1>
-                  <h2>DataX</h2>
-                </div>*/}
+                </div>
                 <div className='company'>
                   <img src="./images/aila.png"/>
                   <h1>Artificial Intelligence Los Angeles</h1>
@@ -588,7 +584,7 @@ export default function Home() {
                 <div className='company'>
                   <img src="./images/she.codes.png"/>
                   <h1>She.Codes</h1>
-                  <h2>Spotify Unwrapped: DIY Edition</h2>
+                  <h2>Night Shift</h2>
                 </div>
                 <div className="company">
                   <img src="./images/SCS_Logo.png"/>
