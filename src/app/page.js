@@ -373,7 +373,7 @@ export default function Home() {
                     and gain insights into the skills and qualities that employers are looking for in candidates.
                     Whether you’re a first-year student or a graduating senior, this panel discussion is designed to help you take your career to the next level!
                   </p>
-                  <img src='./images/flyers/career_landscape.jpg'/>
+                  <img src='./images/flyers/career_landscape.png'/>
                   <p>Moderator: Vivian Nguyen - Treasurer of AI Club at PCC</p>
                 </div>
                 
