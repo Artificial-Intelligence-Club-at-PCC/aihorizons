@@ -362,6 +362,16 @@ export default function Home() {
                     </div>
                     <img src='./images/pcc_1.png' id='org'/>
                   </div>
+                  <div className='panelist'>
+                    <div className='paneltitle'>
+                      <img src='./images/panelists/chenghao.png'/>
+                      <div>
+                        <h1>Chenghao Liu</h1>
+                        <h2>Postdoctoral Fellow at Caltech</h2>
+                      </div>
+                    </div>
+                    <img src='./images/caltech_letters.png' id='org'/>
+                  </div>
                 </div>
               </div>
 
@@ -493,6 +503,16 @@ export default function Home() {
                       </div>
                     </div>
                     <img src="./images/caltech_letters.png" id='org'/>
+                  </div>
+                  <div className='panelist'>
+                    <div className='paneltitle'>
+                      <img src='./images/panelists/sammi.png'/>
+                      <div>
+                        <h1>Xianmei Lei</h1>
+                        <h2>Robotics Systems Engineer at NASA JPL</h2>
+                      </div>
+                    </div>
+                    <img src='./images/jplletters.png' id='org'/>
                   </div>
                 </div>
               </div>
