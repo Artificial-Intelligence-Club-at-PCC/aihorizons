@@ -85,7 +85,7 @@ export default function Home() {
               <div id='abouttext'>
                 <div>
                   <img src="./images/grouppic.jpg"/>
-                  <h3>Artificial Intelligence Club at PCC</h3>
+                  <h3>AI Horizons Convention</h3>
                 </div>
                 <div id='paragraph'>
                   <p>
